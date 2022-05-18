@@ -1,0 +1,116 @@
+#+TITLE: 2020班親會
+
+# -*- org-export-babel-evaluate: nil -*-
+#+PROPERTY: header-args :eval never-export
+#+STARTUP: inlineimages
+#+OPTIONS: toc:nil
+#+OPTIONS: \n:t
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{SimSun}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+#+LaTeX_HEADER: \lstset{basicstyle=\scriptsize\ttfamily}
+#+LATEX_HEADER: \usepackage{placeins}
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setitemize{nolistsep}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \definecolor{dkgreen}{rgb}{0,0.6,0}
+#+LATEX_HEADER: \definecolor{dred}{rgb}{0.545,0,0}
+#+LATEX_HEADER: \definecolor{dblue}{rgb}{0,0,0.545}
+#+LATEX_HEADER: \definecolor{lgrey}{rgb}{0.9,0.9,0.9}
+#+LATEX_HEADER: \definecolor{gray}{rgb}{0.4,0.4,0.4}
+#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+#+LATEX_HEADER: \definecolor{bubbles}{rgb}{0.91, 1.0, 1.0}
+#+LATEX_HEADER: \lstdefinelanguage{python}{
+#+LATEX_HEADER:  backgroundcolor=\color{bubbles},
+#+LATEX_HEADER:  basicstyle=\footnotesize \ttfamily \color{black} \bfseries,
+#+LATEX_HEADER:  breakatwhitespace=false,
+#+LATEX_HEADER:  breaklines=true,
+#+LATEX_HEADER:  captionpos=b,
+#+LATEX_HEADER:  commentstyle=\color{dkgreen},
+#+LATEX_HEADER:  deletekeywords={...},
+#+LATEX_HEADER:  escapeinside={\%*}{*)},
+#+LATEX_HEADER:  frame=single,
+#+LATEX_HEADER:  language=C++,
+#+LATEX_HEADER:  keywordstyle=\color{purple},
+#+LATEX_HEADER:  morekeywords={BRIEFDescriptorConfig,string,TiXmlNode,DetectorDescriptorConfigContainer,istringstream,cerr,exit},
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  stringstyle=\color{blue},
+#+LATEX_HEADER:  rulecolor=\color{black},
+#+LATEX_HEADER:  showspaces=false,
+#+LATEX_HEADER:  showstringspaces=false,
+#+LATEX_HEADER:  showtabs=false,
+#+LATEX_HEADER:  stepnumber=1,
+#+LATEX_HEADER:  tabsize=5,
+#+LATEX_HEADER:  title=\lstname,
+#+LATEX_HEADER: }
+
+* 導師
+- 顏永進 / LINE: letranger / yen.yungchin@gmail.com / 0933696231
+
+* 本學期重要行事曆
+#+BEGIN_COMMENT
+- 10/14-10/16: 第一次定期考查
+- 11/21: 高一、高二藝能科期中考
+- 11/27-11/29: 第二次定期考查
+- 12/7: 校慶園遊會(10:00\~{}13:30)
+- 12/12-12/13: 校慶/全校運動會
+- 12/21: 補課(1/17彈性放假)
+- 1/9: 全民國防期末考
+- 1/14-1/16: 第三次定期考查
+- 1/16: 休業式
+- 2/11: 開學典禮/正式上課
+#+END_COMMENT
+
+* 學校本學期成績評分相關事項
+- 109學測：學生可選擇應考科蟗，大學端至多採計4科。
+- 配合教育部之評量辦法，學期成績經評定為59分，將不再調整為60分。
+- 學年成績將取到小數點第1位，若上下學期平均為59.5分，則僅能取得及格學期之學分。
+- 某學科曠課節數超過1/3，扣考，直接評為0分。
+
+* 彈性學習與自主學習
+** 時段：每週三5,6節
+** 學生的選擇
+- 選手培訓: 各項校外競賽選手培訓、由指導老師提供名單。
+- 微課程: 目前有有拔尖(需先由開課老師選拔)、扶弱兩類。將來成大可能協助開設週期性課程。目前的微課程分段實施，每次課程以1次段考為界。
+- 自主學習: 學生自行擬定學習主題、學習進度、撰寫學習成果報告。
+** 教育部規範
+- 教育部：學生於修業年限內，其自主學習合計應至少 18 節，並應安排於一學期或各學年內實施。
+- 白話版：計算方式為1學期或1學年當中需完成18節，而非跨年級累積滿18節！
+- 微課程的學習不屬於自主學習。
+** 自主學習之重要性
+- 「自主學習」為學生學習歷程中「多元學習表現」的項目之一。(多元學習表現包括：幹部經歷、競賽參與、證照檢定、志工、團體活動、職場學習、彈性學習）
+- 自主學習計劃為升學重要參考文件，幾乎是各大學必定參考的學生檔案
+- 在「多元學習表現」項目中，學生每學年最多可以送交到中央資料庫10件，
+- 申請入學時最多可擇優提交10件多元表現(視大學端規定)
+
+* 下學期幹部產生方式
+** 班長制
+參選者需提出政見，當選後自組小內閣，經全班投票通過後正式運作
+
+* 雜七雜八
+** 高中導師角色
+#+BEGIN_COMMENT
+與國小、國中情形差異在於與學生相處時間不長(每週一次班會時間)。真正能發揮的功能大概是充當家長、學生與學校間的溝通橋樑。對每位同學的特質尚在了解階段，希望能藉由此次座談由家長口中了解更多貴子弟的狀況，也想了解各位家長對於學校與教師的期望。
+#+END_COMMENT
+** 上課要求
+#+BEGIN_COMMENT
+手機：影響自己學習，影響教師情緒，影響他人權益
+#+END_COMMENT
+** 心態的調適
+#+BEGIN_COMMENT
+高一第一次段考，號稱震撼教育，被震撼到的除了學生，也有家長。不過那是因為他們還沒考到資訊科期中考.....QQ
+提前接受現實，提前從之前的假象（我上課不用聽，回家隨便讀讀就班排前三）中清醒過來
+同學的段考成績或排名不理想，學生與家長的心態都需要調整，學生考不好會難過有壓力很正常，但是不可否認更多壓力來自父母，怕父母失望，怕被責罵等等。
+能進到一中，幾乎都是國中時期各校各班的菁英，所以習慣了自已的領先優勢，但是這種優勢在這裡會被重新洗牌，因為大家都很優秀，你強，總還是有比你更強的人，既然要排名，總會有人第一有人最後，後段的同學就需要先調適自已。
+#+END_COMMENT
+** 學校的輔導措施: 各科午間課輔 / 輔導室「低成就學生」輔導服務
+#+BEGIN_COMMENT
+ 有時學生就是沒辦法自己轉過來，需要聽別人說，或者，純粹只是想別人聽自己說
+#+END_COMMENT
+
+* Q&A

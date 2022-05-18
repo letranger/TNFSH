@@ -1,0 +1,64 @@
+#+TITLE: 50萬的運算伺服器真難找
+
+# -*- org-export-babel-evaluate: nil -*-
+#+PROPERTY: header-args :eval never-export
+#+STARTUP: inlineimages
+#+OPTIONS:  num:nil    
+#+OPTIONS: \n:t
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{SimSun}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\scriptsize}
+#+LaTeX_HEADER: \lstset{basicstyle=\scriptsize\ttfamily}
+#+LATEX_HEADER: \usepackage{placeins}
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \definecolor{dkgreen}{rgb}{0,0.6,0}
+#+LATEX_HEADER: \definecolor{dred}{rgb}{0.545,0,0}
+#+LATEX_HEADER: \definecolor{dblue}{rgb}{0,0,0.545}
+#+LATEX_HEADER: \definecolor{lgrey}{rgb}{0.9,0.9,0.9}
+#+LATEX_HEADER: \definecolor{gray}{rgb}{0.4,0.4,0.4}
+#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+#+LATEX_HEADER: \definecolor{bubbles}{rgb}{0.91, 1.0, 1.0}
+#+LATEX_HEADER: \lstdefinelanguage{python}{
+#+LATEX_HEADER:  backgroundcolor=\color{bubbles},
+#+LATEX_HEADER:  basicstyle=\footnotesize \ttfamily \color{black} \bfseries,
+#+LATEX_HEADER:  breakatwhitespace=false,
+#+LATEX_HEADER:  breaklines=true,
+#+LATEX_HEADER:  captionpos=b,
+#+LATEX_HEADER:  commentstyle=\color{dkgreen},
+#+LATEX_HEADER:  deletekeywords={...},
+#+LATEX_HEADER:  escapeinside={\%*}{*)},
+#+LATEX_HEADER:  frame=single,
+#+LATEX_HEADER:  language=C++,
+#+LATEX_HEADER:  keywordstyle=\color{purple},
+#+LATEX_HEADER:  morekeywords={BRIEFDescriptorConfig,string,TiXmlNode,DetectorDescriptorConfigContainer,istringstream,cerr,exit},
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  stringstyle=\color{blue},
+#+LATEX_HEADER:  rulecolor=\color{black},
+#+LATEX_HEADER:  showspaces=false,
+#+LATEX_HEADER:  showstringspaces=false,
+#+LATEX_HEADER:  showtabs=false,
+#+LATEX_HEADER:  stepnumber=1,
+#+LATEX_HEADER:  tabsize=5,
+#+LATEX_HEADER:  title=\lstname,
+#+LATEX_HEADER: }
+|------------+---------------+--------------------------+------|
+| 廠商       | 型號          | GPU 插槽數               | 報價 |
+|------------+---------------+--------------------------+------|
+| 技嘉       | G481-S80      | 8 * V100/P100            |      |
+| Keywin凱穩 | KR-4500G      | 4*Nvidia Tesla GPU cards |      |
+| ASUS       | ESC4000 G4X   | 4*Tesla V100 32GB        |      |
+| 技嘉       | G291-280      | 8 x PCIe Gen3 GPUs       |      |
+| DELL       | HPC C4140     | PCI-E 3.0 x16            |      |
+| 泰安       | GA88-B5631    | 6張Nvidia T4             |      |
+| 泰安       | GA88-B8021    | 4張Nvidia T4             |      |
+| ASUS       | ESC8000 G4    | 8 張 Tesla V100 32GB     |      |
+| 亞都       | SYS-1028GR-TR | 4 PCI-E 3.0 x16          |      |
+|            |               |                          |      |
+|------------+---------------+--------------------------+------|
+以上這個表可能有點不專業，因為從網路上找不到大概的報價，所以有些機型的價格可能和我的預算有很大出入，我的預算是50萬以內，目標是學術研究用途的運算伺服器用途，在預算內，希望RAM能有256或以上，硬碟可以有4T或以上的SSD。GPU: 看能否先插兩張NVIDIA TITAN V....
+

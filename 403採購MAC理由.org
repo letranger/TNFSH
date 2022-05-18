@@ -1,0 +1,149 @@
+#+TITLE: 採購MAC電腦設備理由
+#+OPTIONS: toc:nil
+
+
+#+LANGUAGE: en
+#+LATEX_HEADER: \usepackage[AUTO]{babel}
+#+LATEX_HEADER: \addto\captionsenglish{\renewcommand\contentsname{Outline}}
+#+latex_header: \hypersetup{colorlinks=true}
+#+LATEX_HEADER: \usepackage[UTF8, heading]{ctex}
+#+LATEX_HEADER: \usepackage{xltxtra}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \usepackage{lmodern}
+#+LATEX_HEADER: \usepackage{verbatim}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usepackage{wrapfig}
+#+LATEX_HEADER: \usepackage{soul}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{listing}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \usepackage{algorithm}
+#+LATEX_HEADER: \usepackage{algorithmic}
+#+LATEX_HEADER: \usepackage{marvosym}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{natbib}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage{fontspec,xunicode,xltxtra}
+#+LATEX_HEADER: \usepackage{CJKnumb}
+#+LATEX_HEADER: \usepackage{amsfonts}
+#+LATEX_HEADER: \usepackage[default]{sourcecodepro}
+#+LATEX_HEADER: \usepackage[T1]{fontenc}
+#+LATEX_HEADER: \setCJKmainfont{SimSun} % 設置缺省中文字體
+#+LATEX_HEADER: \setmainfont{Times New Roman} % 英文襯線字體
+#+LATEX_HEADER: \setsansfont{Source Code Pro} % 英文無襯線字體
+#+LATEX_HEADER: \setmonofont{Source Code Pro} % 英文等寬字體
+#+LATEX_HEADER: \setCJKmainfont[Scale=0.9]{Adobe Heiti Std} % 中文字體
+#+LATEX_HEADER: \setCJKmonofont[Scale=0.9]{Adobe Heiti Std}
+#+LATEX_HEADER: \usepackage{color}
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \usepackage{placeins}
+#+LATEX_HEADER: \vspace{-0.2cm}
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt]
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \hypersetup{pdfauthor={Name}}
+#+LATEX_HEADER: \definecolor{dkgreen}{rgb}{0,0.6,0}
+#+LATEX_HEADER: \definecolor{dred}{rgb}{0.545,0,0}
+#+LATEX_HEADER: \definecolor{dblue}{rgb}{0,0,0.545}
+#+LATEX_HEADER: \definecolor{lgrey}{rgb}{0.9,0.9,0.9}
+#+LATEX_HEADER: \definecolor{gray}{rgb}{0.4,0.4,0.4}
+#+LATEX_HEADER: \definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+#+LATEX_HEADER: \definecolor{bubbles}{rgb}{0.91, 1.0, 1.0}
+#+LATEX_HEADER: \definecolor{foreground}{RGB}{220,220,204} % 淺灰
+#+LATEX_HEADER: \definecolor{background}{RGB}{62,62,62} % 淺黑
+#+LATEX_HEADER: \definecolor{preprocess}{RGB}{250,187,249} % 淺紫
+#+LATEX_HEADER: \definecolor{var}{RGB}{239,224,174} % 淺肉色
+#+LATEX_HEADER: \definecolor{string}{RGB}{154,150,230} % 淺紫色
+#+LATEX_HEADER: \definecolor{type}{RGB}{225,225,116} % 淺黃
+#+LATEX_HEADER: \definecolor{function}{RGB}{140,206,211} % 淺天藍
+#+LATEX_HEADER: \definecolor{keyword}{RGB}{239,224,174} % 淺肉色
+#+LATEX_HEADER: \definecolor{comment}{RGB}{180,98,4} % 深褐色
+#+LATEX_HEADER: \definecolor{doc}{RGB}{175,215,175} % 淺鉛綠
+#+LATEX_HEADER: \definecolor{comdil}{RGB}{111,128,111} % 深灰
+#+LATEX_HEADER: \definecolor{constant}{RGB}{220,162,170} % 粉紅
+#+LATEX_HEADER: \lstdefinelanguage{python}{
+#+LATEX_HEADER:  backgroundcolor=\color{bubbles},
+#+LATEX_HEADER:  basicstyle=\footnotesize \ttfamily \color{dblue} \small \mono \bfseries,
+#+LATEX_HEADER:  breakatwhitespace=false,
+#+LATEX_HEADER:  breaklines=true,
+#+LATEX_HEADER:  captionpos=b,
+#+LATEX_HEADER:  comment=[l]{\#},
+#+LATEX_HEADER:  morecomment=[s]{/*}{*/},
+#+LATEX_HEADER:  commentstyle=\color{comment} \slshape \small \itshape,
+#+LATEX_HEADER:  ndkeywords={boolean, throw, import, typeof, null, catch, switch, for, in, int, str, float, self, return, class, if ,elif, endif, while, do, else, True, False , catch, def},
+#+LATEX_HEADER:  ndkeywordstyle=\color{dred} \bfseries \small \mono,
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  deletekeywords={...},
+#+LATEX_HEADER:  escapeinside={\%*}{*)},
+#+LATEX_HEADER:  frame=single,
+#+LATEX_HEADER:  frameround=tttt,
+#+LATEX_HEADER:  framesep=0pt,
+#+LATEX_HEADER:  rulecolor=\color{background},
+#+LATEX_HEADER:  morekeywords={BRIEFDescriptorConfig,string,TiXmlNode,DetectorDescriptorConfigContainer,istringstream,cerr,exit},
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  stringstyle=\color{blue},
+#+LATEX_HEADER:  rulecolor=\color{black},
+#+LATEX_HEADER:  showspaces=false,
+#+LATEX_HEADER:  showstringspaces=false,
+#+LATEX_HEADER:  showtabs=false,
+#+LATEX_HEADER:  stepnumber=1,
+#+LATEX_HEADER:  tabsize=5,
+#+LATEX_HEADER:  title=\lstname,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \lstdefinelanguage{shell}{
+#+LATEX_HEADER:  backgroundcolor=\color{keyword},
+#+LATEX_HEADER:  basicstyle=\footnotesize \ttfamily \color{dblue} \small \mono \bfseries,
+#+LATEX_HEADER:  breakatwhitespace=false,
+#+LATEX_HEADER:  breaklines=true,
+#+LATEX_HEADER:  captionpos=b,
+#+LATEX_HEADER:  comment=[l]{\#},
+#+LATEX_HEADER:  morecomment=[s]{/*}{*/},
+#+LATEX_HEADER:  commentstyle=\color{comment} \slshape \small \itshape,
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  deletekeywords={...},
+#+LATEX_HEADER:  escapeinside={\%*}{*)},
+#+LATEX_HEADER:  frame=single,
+#+LATEX_HEADER:  frameround=tttt,
+#+LATEX_HEADER:  framesep=0pt,
+#+LATEX_HEADER:  rulecolor=\color{background},
+#+LATEX_HEADER:  morekeywords={BRIEFDescriptorConfig,string,TiXmlNode,DetectorDescriptorConfigContainer,istringstream,cerr,exit},
+#+LATEX_HEADER:  identifierstyle=\color{black},
+#+LATEX_HEADER:  stringstyle=\color{blue},
+#+LATEX_HEADER:  rulecolor=\color{black},
+#+LATEX_HEADER:  showspaces=false,
+#+LATEX_HEADER:  showstringspaces=false,
+#+LATEX_HEADER:  showtabs=false,
+#+LATEX_HEADER:  stepnumber=1,
+#+LATEX_HEADER:  tabsize=5,
+#+LATEX_HEADER:  title=\lstname,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \setenumerate{noitemsep}
+#+LATEX_HEADER: \setenumerate{nolistsep}
+#+LATEX_HEADER: \setitemize{nolistsep}
+
+#+LATEX_HEADER: \vspace{-\topsep}
+
+** 沿用舊用系統
+原 403 教室因教師開設程式設計與選修課程(IOS App 開發)之故，教師用、學生用電腦以及教
+學伺服器均係採用 MAC 系統，包含管理學生端系統的電腦控管、維護還原軟體也是採購 MAC 版
+的管理軟體，目前所有的鍵盤也是使用 MAC 鍵盤，為了與舊有環境配合、避免現有軟、硬體
+的浪費，故在採購上建議仍以 MAC 系統為主。
+** 配合 108 課綱
+為配合 108 課綱科技領域中對於運算思維與程式設計能力的強調，本教室擬於下學生增開
+「Python 程式設計」與「人工智慧導論」，同時也繼續維持「IOS App 軟體開發導論」的選
+修，其中人工智慧課程與 IOS App 軟體開發兩項課程以現有系統而言，運作起來相當吃力(目
+前系統僅有 2G Ram)，往往打開一套 IOS 模擬器便耗時 3 到 5 分鐘，對學習者與教師的耐心都是
+一大考驗，而 MAC 系統更是 IOS App 開發的基本條件，是以新電腦的採購仍有必要採購 MAC 系
+統。
+** 教材錄製需求
+為了方便學生進行補救學習，也為了讓進度超前的同學能自主學習，403 教室所開設之課程
+均有教師錄製之教學影片(請參見南 e 中教學網)，而影片之錄製與後製編修剪輯除了耗費時
+間人力，也十分要求電腦系統的螢幕大小與系統效能，採購教師電腦以筆電為主是因為教師
+僅能利用假日以及課餘時間進行這些錄製工作，而螢幕過小對於剪輯工作而言所造成的困擾
+十分鉅大，此外，先前所採購的教學影片剪輯軟體也是 MAC 版的軟體。
+
+綜上所述，建議 403 的電腦系統採購，學生端仍以 Mac Mini 為主，而教師用電腦則以 MacBook
+Pro 為主。
+

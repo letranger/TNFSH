@@ -1,0 +1,23 @@
+#+TITLE: Recommendation Letter
+
+基本資料：我叫柯斐元，英文名為Alex，興趣的話是音樂與電腦科技，我很愛唱歌跟玩一些電腦的東西，我爸還買了一台樂高機器人要寫程式的那種給我玩（小時候），因為他是電機系教授所以也教了我一點點寫程式的東西，然後我是在學校的合唱團裡擔任聲部長（教大家唱歌還有帶大家練習），除了這個以外我也會彈鋼琴，唱流行樂跟一點點聲樂，除了合唱以外也有參加過辯論社（一年），兩個社團都有參加過比賽，合唱團有拿到全國第一，辯論沒有==。
+
+老師你可以主要寫一下你帶我做專題的對我的感覺，像是聽不聽話啊等等，因為大學可能也會做一些研究所以教授們會比較想要看到如果跟我合作之後會得到什麼樣的結果之類的
+
+Dear Admissions Committee,
+
+It's a great pleasure to recommend Alex, who is one of the most exceptional students I've encountered in recently years of teaching. Aelx did the project research with me last year. He demonstrated tremendous effort and growth throughout the year and brought a great energy to class. Based on the service of Microsoft Azure, Alex and his peer conducted an innovative project to evaluate whether user's facial expressions (i.e., delight, anger, sorrow, and happiness) could effect the precision of age detection. During the class, Alex is always willing to help others and encourage them to be more proactive. 
+
+Alex has a keen interest in and talent for music. He has also been an active member of the debate team and a section leader in choir.
+
+Alex did the project research with me last year.  
+
+o
+Alex has my highest recommendation for admission to your college. He has demonstrated excellence in all that he puts his mind to, whether it's designing an experiment or collaborating with others. I'm confident that he will continue to demonstrate the same deligence, perservance, and potimism that he showed my self and his peers.Please don't hesitate to contact at
+yen.yungchin@gmail.com if you have any questions.
+
+Sincerely,
+
+Dr. Yen
+Computer Science Teacher
+Tainan First Senior High School
