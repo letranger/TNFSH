@@ -1,2 +1,1 @@
-##/mount/caspershare      -fstype=smbfs,soft,noowners,nosuid,rw ://student:tnfsh403@192.168.16.110:/caspershare
-/mount/caspershare      -fstype=smbfs,soft,noowners,nosuid,rw ://student:tnfsh403@192.168.16.200:/caspershare
+/System/Volumes/Data/mount/caspershare    -fstype=smbfs,soft,noowners,nosuid,rw ://student:tnfsh403d@192.168.16.200:/caspershare
