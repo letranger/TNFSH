@@ -11,19 +11,20 @@
 
 * 2023實支材料費
 |------+------------------------------------------------+------+------+-------|
-| 品名 | 單價                                           | 數量 | 用途 |  總價 |
+| 編號 | 品名                                           | 數量 | 單價 |  總價 |
+| <l>  |                                                |      |      |       |
 |------+------------------------------------------------+------+------+-------|
-|      | [[https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 Lightning 資料傳輸線 (1 公尺)]]         |    2 |  590 |  1180 |
-|      | [[https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO][512GB USD300S microSDXC UHS-I U3(V30/A1)記憶卡]] |    2 |  999 |  1998 |
-|      | [[https://24h.pchome.com.tw/prod/DRAA02-A900AWQV3][SanDisk E61 2TB 2.5吋行動固態硬碟]]              |    3 | 3688 | 11064 |
-|    5 | [[https://www.apple.com/tw/shop/product/MLUN2FE/A/apple-pencil-%E7%AD%86%E5%B0%96-4-%E4%BB%B6%E8%A3%9D][Apple Pencil 筆尖-4件裝]]                        |    1 |  625 |   625 |
-|      | [[https://24h.pchome.com.tw/prod/DGAX9Y-A900GG277][Apple Macbook 鍵盤保護膜]]                       |    1 |  520 |   520 |
-|      | [[https://24h.pchome.com.tw/prod/DYAZ1P-A900G4G9R?fq=/S/DYAZ1O][ELECOM 可拆式類紙膜]]                            |    1 |  872 |   872 |
-|      | [[https://24h.pchome.com.tw/prod/DYAR12-A900AOK03][Apple iPad 保護套]]                              |    1 |  950 |   950 |
-|      | [[https://24h.pchome.com.tw/prod/DCANDJ-A9008ZFDA][Perixx德國佩銳–垂直滑鼠 ]]                       |    1 |  990 |   990 |
-|      | [[https://24h.pchome.com.tw/prod/DRAGCN-A900GDE8P][Synology HAT3300 PLUS系列 4TB/ NAS硬碟]]         |    2 | 3999 |  7998 |
-|   12 | Google USB-C 耳塞式耳機                        |    1 | 1070 |  1070 |
-|   13 | 羅技 MK295 靜音鍵鼠組-石墨灰                   |    1 |  990 |   990 |
+| 1    | [[https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 Lightning 資料傳輸線 (1 公尺)]]         |    2 |  590 |  1180 |
+| 2    | [[https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO][512GB USD300S microSDXC UHS-I U3(V30/A1)記憶卡]] |    2 |  999 |  1998 |
+| 3    | [[https://24h.pchome.com.tw/prod/DRAA02-A900AWQV3][SanDisk E61 2TB 2.5吋行動固態硬碟]]              |    3 | 3688 | 11064 |
+| 4    | [[https://www.apple.com/tw/shop/product/MLUN2FE/A/apple-pencil-%E7%AD%86%E5%B0%96-4-%E4%BB%B6%E8%A3%9D][Apple Pencil 筆尖-4件裝]]                        |    1 |  625 |   625 |
+| 5    | [[https://24h.pchome.com.tw/prod/DGAX9Y-A900GG277][Apple Macbook 鍵盤保護膜]]                       |    1 |  520 |   520 |
+| 6    | [[https://24h.pchome.com.tw/prod/DYAZ1P-A900G4G9R?fq=/S/DYAZ1O][ELECOM 可拆式類紙膜]]                            |    1 |  872 |   872 |
+| 7    | [[https://24h.pchome.com.tw/prod/DYAR12-A900AOK03][Apple iPad 保護套]]                              |    1 |  950 |   950 |
+| 8    | [[https://24h.pchome.com.tw/prod/DCANDJ-A9008ZFDA][Perixx德國佩銳–垂直滑鼠 ]]                       |    1 |  990 |   990 |
+| 9    | [[https://24h.pchome.com.tw/prod/DRAGCN-A900GDE8P][Synology HAT3300 PLUS系列 4TB/ NAS硬碟]]         |    2 | 3999 |  7998 |
+| 10   | Google USB-C 耳塞式耳機                        |    1 | 1070 |  1070 |
+| 11   | 羅技 MK295 靜音鍵鼠組-石墨灰                   |    1 |  990 |   990 |
 |------+------------------------------------------------+------+------+-------|
 |      |                                                |      |      | 28257 |
 |------+------------------------------------------------+------+------+-------|

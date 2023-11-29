@@ -1,5 +1,214 @@
-#+TITLE: 403採購清單
+#+TITLE: 新興計畫採購清單
+#+OPTIONS: toc:1 ^:nil num:1
+#+TAGS: Python, Basic
+#+PROPERTY: header-args :eval never-export
+#+include: ../pdf.org
+#+EXCLUDE_TAGS: noexport
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/muse.css" />
+#+begin_export html
+<a href="https://hits.sh/letranger.github.io/TNFSH/403BuyList.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/TNFSH/403BuyList.html.svg"/></a>
+#+end_export
 
+* 2024新興計畫
+** Ideas :noexport:
+- https://www.youtube.com/watch?v=eyYxuIGF8-g
+- https://www.genb2b.com/UploadFile/Product/4/2020/8/be6d9cf9-c0c8-4b03-ba9c-003a11b826a466b0aa45-afb8-48a8-874a-e0e0af0b5bcb/%E5%8F%AF%E5%8F%96%20IP%20camera%20%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8A%20v%201.pdf
+- https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwje_Kv-vsOCAxXadXAKHVJUA24QFnoECCEQAQ&url=https%3A%2F%2Fwww.trendnet.com%2F_uploads%2Fhelpdesk%2Fipcamcgi_v125%25202011-13.doc&usg=AOvVaw0KkFBwTAdDe43qaMjDayM0&opi=89978449
+- https://www.facebook.com/CAVEEducation/posts/5812833502120809/?locale=zh_TW
+- https://robotkingdom.com.tw/product/intelrealsense-depth-camera-d435/
+- https://www.youtube.com/watch?v=vm51ssb62J4
+- https://blog.cavedu.com/2021/06/04/python1-nvidia-jetsonnano-realsense-d435/
+- https://www.slideshare.net/IttrainingIttraining/yolo-model-x-opencv
+- https://docs.oneai.twcc.ai/s/JyKyKQe1c#
+- https://www.ittraining.com.tw/ittraining/course/computervision-imageprocessing/ai-dl-vid
+- https://www.largitdata.com/course/128/
+- https://jennaweng0621.pixnet.net/blog/post/403744253-%5Bpython-%2B-opencv%5D-%E8%AE%80%E5%8F%96%E6%94%9D%E5%BD%B1%E6%A9%9F
+- https://hackmd.io/@weiwei0519/Edge-AI-Final
+- https://www.slideshare.net/IttrainingIttraining/ss-253703148
+- https://medium.com/ai-academy-taiwan/%E6%99%BA%E6%85%A7%E8%A3%BD%E9%80%A0%E5%B0%88%E9%A1%8C%E6%95%B4%E7%90%86-2fbbc05423cc
+- https://www.youtube.com/watch?v=PhHF_dfEkfY
+- https://www.youtube.com/watch?v=5y7gDP37BhQ
+- https://www.google.com/search?client=firefox-b-d&q=ai+%E5%B0%88%E9%A1%8C++%E6%94%9D%E5%BD%B1%E6%A9%9F
+
+** 設備費/30
+|-------------------------------------------------------------------+-------+------+------------------------+--------|
+| 品名                                                              |  單價 | 數量 | 用途                   |   總價 |
+|-------------------------------------------------------------------+-------+------+------------------------+--------|
+| [[https://www.apple.com/tw/shop/buy-mac/macbook-pro/14-%E5%90%8B-m3][14吋M3 Macbook Pro]]                                                | 51900 |    1 | 教學、教材製作         |  51900 |
+| [[https://www.techsmith.com/store/snagit][Snagit 2024]] 螢幕截取軟體                                          |  1890 |    1 | 教學、教材製作         |   1890 |
+| [[https://www.techsmith.com/store/camtasia][Camtasia]] 教學影片編修軟體                                         |  9000 |    1 | 教學、教材製作         |   9000 |
+| [[https://www.pcstore.com.tw/caldigit/M83879235.htm][TS4 Thunderbolt 4 介面擴充埠]]                                      | 12074 |    1 | 教學、教材製作         |  12074 |
+| [[https://24h.pchome.com.tw/prod/DGAFAJ-A900GEDNU][RODE PODMIC USB 動圈式麥克風]]                                      |  7182 |    1 | 教學、教材製作         |   7182 |
+| [[https://www.xander.com.tw/user2/item/?id=75WG4GIKA4KFIEE][AVer DL30教學用自動追蹤攝影機]]                                     | 31900 |    1 | 教學影片錄製、線上教學 |  31900 |
+| [[https://24h.pchome.com.tw/prod/DGCR0S-A900GCP4O?fq=/S/DGCR1R][LS284C+LH30R四節碳纖維三腳架(含中軸雲台)]]                          |  8329 |    1 | 教學影片錄製、線上教學 |   8329 |
+| [[https://24h.pchome.com.tw/prod/DPAE7O-A900BRTF0?fq=/S/DPAE7O][實物投影機]]                                                        |  7810 |    1 | 教學影片錄製、線上教學 |   7810 |
+| [[https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-dlikit-9/][RK-NVIDIA® Jetson Nano™ B01套件]]                                   |  8300 |   10 | 教學用、學生專題製作   |  83000 |
+| [[https://24h.pchome.com.tw/prod/DGCR0Y-A900C3CDC][桌上型三腳架]]                                                      |  2960 |    2 | 教學用、學生專題製作   |   5920 |
+| [[https://24h.pchome.com.tw/prod/DGCR0Y-A900A5ZBR?fq=/S/DGCR0Y][反折三腳架]]                                                        |  3080 |    1 | 教學用、學生專題製作   |   3080 |
+| [[https://shop.mirotek.com.tw/shop/100050/][Nvidia SLAM建圖智慧車]]                                             | 58480 |    1 | 教學用、教材開發       |  58480 |
+| ====================書====================                        |       |      |                        |      0 |
+| [[https://www.books.com.tw/products/0010761759?sloc=main][Deep Learning：用Python進行深度學習的基礎理論實作]]                 |   458 |    1 | 教學用、學生專題製作   |    458 |
+| [[https://www.books.com.tw/products/0010858475?sloc=main][精通 Python：運用簡單的套件進行現代運算（第二版）]]                 |   694 |    1 | 教學用、學生專題製作   |    694 |
+| [[https://www.books.com.tw/products/0010867440?sloc=main][Python 自動化的樂趣：搞定重複瑣碎&單調無聊的工作(第二版)]]          |   537 |    1 | 教學用、學生專題製作   |    537 |
+| [[https://www.books.com.tw/products/0010925009?sloc=main][零基礎入門的Python自動化投資]]                                      |   355 |    1 | 教學用、學生專題製作   |    355 |
+| [[https://www.books.com.tw/products/0010932115?sloc=main][從零開始使用Python打造投資工具]]                                    |   585 |    1 | 教學用、學生專題製作   |    585 |
+| [[https://www.books.com.tw/products/0010840414?sloc=main][Python 金融分析（第二版）]]                                         |   774 |    1 | 教學用、學生專題製作   |    774 |
+| [[https://www.books.com.tw/products/0010901963?sloc=main][Python金融市場賺大錢聖經]]                                          |   702 |    1 | 教學用、學生專題製作   |    702 |
+| [[https://www.books.com.tw/products/0010800867?sloc=main][Python：網路爬蟲與資料分析入門實戰]]                                |   405 |    1 | 教學用、學生專題製作   |    405 |
+| [[https://www.books.com.tw/products/0010844123?sloc=main][NumPy 高速運算徹底解說]]                                            |   713 |    1 | 教學用、學生專題製作   |    713 |
+| [[https://www.books.com.tw/products/0010888154?sloc=main][必學！Python 資料科學‧機器學習最強套件]]                            |   646 |    1 | 教學用、學生專題製作   |    646 |
+| [[https://www.books.com.tw/products/0010908742?sloc=main][Python資料分析必備套件！]]                                          |   741 |    1 | 教學用、學生專題製作   |    741 |
+| [[https://www.books.com.tw/products/0010786530?sloc=main][超圖解 Python 物聯網實作入門]]                                      |   664 |    1 | 教學用、學生專題製作   |    664 |
+| [[https://www.books.com.tw/products/0010883495?sloc=main][Python與LINE Bot機器人全面實戰特訓班]]                              |   434 |    1 | 教學用、學生專題製作   |    434 |
+| [[https://www.books.com.tw/products/0010861459?sloc=main][決心打底！Python 深度學習基礎養成]]                                 |   656 |    1 | 教學用、學生專題製作   |    656 |
+| [[https://www.books.com.tw/products/0010863769?sloc=main][少年Py的大冒險]]                                                    |   399 |    1 | 教學用、學生專題製作   |    399 |
+| [[https://www.books.com.tw/products/0010907137?sloc=main][機器學習的統計基礎]]                                                |   646 |    1 | 教學用、學生專題製作   |    646 |
+| [[https://www.books.com.tw/products/0010896119?sloc=main][核心開發者親授！PyTorch深度學習攻略]]                               |   950 |    1 | 教學用、學生專題製作   |    950 |
+| [[https://www.books.com.tw/products/0010857799?sloc=main][深度學習的數學地圖]]                                                |   551 |    1 | 教學用、學生專題製作   |    551 |
+| [[https://www.books.com.tw/products/0010901055?sloc=main][深度學習的16堂課]]                                                  |   589 |    1 | 教學用、學生專題製作   |    589 |
+| [[https://www.books.com.tw/products/0010847016?sloc=main][深度學習的商戰必修課]]                                              |   331 |    1 | 教學用、學生專題製作   |    331 |
+| [[https://www.books.com.tw/products/0010873183?sloc=main][圖解AI：機器學習和深度學習的技術與原理]]                            |   355 |    1 | 教學用、學生專題製作   |    355 |
+| [[https://www.books.com.tw/products/0010882877?sloc=main][輕鬆學會Google TensorFlow 2]]                                       |   558 |    1 | 教學用、學生專題製作   |    558 |
+| [[https://www.books.com.tw/products/0010831907?sloc=main][最專業的語音辨識全書]]                                              |   612 |    1 | 教學用、學生專題製作   |    612 |
+| [[https://www.books.com.tw/products/0010831907?sloc=main][深度學習實務應用]]                                                  |   695 |    1 | 教學用、學生專題製作   |    695 |
+| [[https://www.books.com.tw/products/0010828410?sloc=main][實戰人工智慧之深度強化學習]]                                        |   395 |    1 | 教學用、學生專題製作   |    395 |
+| [[https://www.books.com.tw/products/0010862534?sloc=main][NLP工程師養成術：自然語言處理入門]]                                 |   621 |    1 | 教學用、學生專題製作   |    621 |
+| [[https://www.books.com.tw/products/0010833053?sloc=main][TensorFlow自然語言處理]]                                            |   489 |    1 | 教學用、學生專題製作   |    489 |
+| [[https://www.books.com.tw/products/0010961355?sloc=main][ChatGPT原理，從PyTorch中的NLP功能讓你一腳跨入自然語言]]             |   695 |    1 | 教學用、學生專題製作   |    695 |
+| [[https://www.books.com.tw/products/CN11575537?sloc=main][Python自然語言處理]]                                                |   412 |    1 | 教學用、學生專題製作   |    412 |
+| [[https://www.books.com.tw/products/CN11335406?sloc=main][自然語言交流的計算機模型]]                                          |   336 |    1 | 教學用、學生專題製作   |    336 |
+| [[https://www.books.com.tw/products/CN11408497?sloc=main][NLP漢語自然語言處理原理與實踐]]                                     |   588 |    1 | 教學用、學生專題製作   |    588 |
+| [[https://www.books.com.tw/products/CN11872805?sloc=main][HuggingFace自然語言處理詳解]]                                       |   360 |    1 | 教學用、學生專題製作   |    360 |
+| [[https://www.books.com.tw/products/0010894475?sloc=main][初學Jetson Nano不說No]]                                             |   379 |    1 | 教學用、學生專題製作   |    379 |
+| ====================追加====================                      |       |      |                        |      0 |
+| [[https://www.pcstore.com.tw/timway/M12210000.htm][https://www.pcstore.com.tw/timway/M12210000.htm]]                   | 21777 |    1 | 改善網路環境           |  21777 |
+| [[https://www.kinstar.com.tw/shop-detail/mipro-act-32t-ace-343/][Mipro ACT-32T + ACT-343 無線麥克風組]]                              | 26000 |    1 | 改善教室教學環境       |  26000 |
+| [[https://www.gagu.com.tw/zc/index.php?main_page=product_info&cPath=225_227&products_id=11374][5mm強化烤漆磁性玻璃白板-]]                                          | 13200 |    2 | 小組討論互動           |  26400 |
+| [[http://www.sunye.com.tw/gmm_03.html#&ui-state=dialog][雙層開合式磁性玻璃白板]] (這是預估的，換掉現在很難寫難擦的水性白板) | 46000 |    1 | 改善教室教學環境       |  46000 |
+|-------------------------------------------------------------------+-------+------+------------------------+--------|
+|                                                                   |       |      |                        | 433567 |
+|-------------------------------------------------------------------+-------+------+------------------------+--------|
+#+TBLFM: $5=$3*$2::@>$5=vsum(@2$5..@-1$5)
+
+** 物品費/10
+|----------------------------------------+------+------+------------------------+-------|
+| 品名                                   | 單價 | 數量 | 用途                   |  總價 |
+|----------------------------------------+------+------+------------------------+-------|
+| [[https://24h.pchome.com.tw/prod/DCAT53-A900A6SYY][FujiXerox CT201633~CT201635]]            | 8880 |    1 | 教學、教材製作         |  8880 |
+| [[https://www.apple.com/tw/shop/product/HKQ22ZM/A/belkin-usb-c-%E5%B0%8D-hdmi-%E8%BD%89%E6%8E%A5%E5%99%A8?fnode=4fe878ae35294e188aa4c1176a52f468fb4322962bb87a94c9da29d4fcc2692dc5e5c9d42de219d18ce77da5da80dd761c262d165cacac69e2b6b761e5f61908f36e036f1ad605a51e5a91389fde10fcb9fe7de8d8bdd58b3c40f535e021100b][Belkin USB-C 對 HDMI 轉接器]]            | 1690 |    1 | 教學、教材製作         |  1690 |
+| [[https://www.apple.com/tw/shop/product/MUFG2TA/A/usb-c-%E5%B0%8D-sd-%E5%8D%A1%E8%AE%80%E5%8D%A1%E6%A9%9F][USB-C 對 SD 卡讀卡機]]                   | 1190 |    1 | 教學、教材製作         |  1190 |
+| [[https://www.apple.com/tw/shop/product/MU883FE/A/thunderbolt-4-usb%E2%80%91c-pro-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][Thunderbolt 4 (USB‑C) Pro 資料傳輸線]]   | 2190 |    2 | 教學、教材製作         |  4380 |
+| [[https://www.apple.com/tw/shop/product/MNC73TA/A/siri-remote][Siri remote]]                            | 1790 |    1 | 教材、專案資料儲存備份 |  1790 |
+| [[https://24h.pchome.com.tw/prod/DRAB6A-A9009H7NV][Toshiba【N300 NAS碟】10TB 3.5吋NAS硬碟]] | 8650 |    2 | 教材、專案資料儲存備份 | 17300 |
+| [[https://www.2525.com.tw/TW/Showroom83/ugC_ShowroomItem_Detail.asp?hidShowKindID=1073&hidShowID=33086][防潮家 防潮家 FD-82C 84公升]]            | 5890 |    2 | 器材保存設備           | 11780 |
+| [[https://24h.pchome.com.tw/prod/DCANV1-A900G4HGF?fq=/S/DCBAH6][無線藍牙簡報器(IX7-00016)]]              | 1888 |    1 | 教學用                 |  1888 |
+| [[https://www.apple.com/tw/shop/product/MK2D3TA/A/%E5%B7%A7%E6%8E%A7%E6%9D%BF-%E7%99%BD%E8%89%B2%E5%A4%9A%E9%BB%9E%E8%A7%B8%E6%8E%A7%E8%A1%A8%E9%9D%A2][巧控板]]                                 | 3790 |    1 | 教學用                 |  3790 |
+| [[https://24h.pchome.com.tw/prod/DGCA08-A900FLVUB?fq=/S/DGAG03][SanDisk Ultra microSDXC]]                | 2999 |    2 | 教學用、學生專題製作   |  5998 |
+| [[https://24h.pchome.com.tw/prod/DCABD3-A900C1UUZ][Panasonic NCR18650GA 3450mAh ]]          |  990 |   20 | 教學用、學生專題製作   | 19800 |
+| [[https://24h.pchome.com.tw/prod/DCABC4-A900AZHWE][18650LCD液晶四槽複合式充電器]]           |  690 |    8 | 教學用、學生專題製作   |  5520 |
+| [[https://www.apple.com/tw/shop/product/MU2G3FE/A/240w-usb-c-%E5%85%85%E9%9B%BB%E9%80%A3%E6%8E%A5%E7%B7%9A-2-%E5%85%AC%E5%B0%BA?fnode=84db3bb8f8390133fc61ccdc1d66e27f12d1eb8f4117ac2b8b5585b441868056bc28fb61bcaa457ea4800cd36e79b9d924e1e23fb8a913189ddcc8f1c91a9eed6798bad6ced62afdba0f3726c303d83bcbe3fb22101ce59ba4cab21ab01dcd60][USB-C 資料傳輸線]]                       |  990 |   10 | 教學用、學生專題製作   |  9900 |
+| [[https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 Lightning 資料傳輸線]]          |  590 |   10 | 教學用、學生專題製作   |  5900 |
+|----------------------------------------+------+------+------------------------+-------|
+|                                        |      |      |                        | 99806 |
+|----------------------------------------+------+------+------------------------+-------|
+#+TBLFM: $5=$3*$2::@>$5=vsum(@2$5..@-1$5)
+
+** 材料費/5
+|--------------------------------------+------+------+----------------------+-------|
+| 品名                                 | 單價 | 數量 | 用途                 |  總價 |
+|--------------------------------------+------+------+----------------------+-------|
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PH5][FujiXerox CT201635黃色相容碳粉匣]]     |  990 |    4 | 教學、教材製作       |  3960 |
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PH5][FujiXerox CT201635黃色相容碳粉匣]]     |  990 |    4 | 教學、教材製作       |  3960 |
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PEK][FujiXerox CT201634紅色相容碳粉匣]]     |  990 |    4 | 教學、教材製作       |  3960 |
+| [[https://24h.pchome.com.tw/prod/QAAD01-A9009BT9H][FujiXerox CT201633藍色相容碳粉匣]]     |  990 |    4 | 教學、教材製作       |  3960 |
+| [[https://24h.pchome.com.tw/prod/DCABFZ-A9006URYS?fq=/S/DCABFZ][CR2032 (10顆入)鈕扣型3V鋰電池]]        |  250 |    4 | 教學用、學生專題製作 |  1000 |
+| [[https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO][512GB USD300S microSDXC]]              |  999 |   10 | 教學用、學生專題製作 |  9990 |
+| [[https://www.aibo-shop.com.tw/zh-TW/products/iccard-ab24][Type-C ATM晶片+記憶卡 多合一讀卡機 ]]  |  699 |   10 | 教學用、學生專題製作 |  6990 |
+| [[https://shop.playrobot.com/products/jetson-nano-b01-acrylic-shell][Jetson Nano B01開發板亞克力外殼]]      |  231 |   10 | 教學用、學生專題製作 |  2310 |
+| [[https://shop.playrobot.com/products/nvidia-cet00dex30][JetsonNano不斷電供應系統UPS模組]]   |  950 |   10 | 教學用、學生專題製作 |  9500 |
+| [[https://shop.playrobot.com/products/jetson-nano-b01][Jetson Nano B01金屬外殼雙眼鏡頭支架 ]] |  399 |   10 | 教學用、學生專題製作 |  3990 |
+|--------------------------------------+------+------+----------------------+-------|
+|                                      |      |      |                      | 49620 |
+|--------------------------------------+------+------+----------------------+-------|
+#+TBLFM: $5=$3*$2::@>$5=vsum(@2$5..@-1$5)
+
+* 2023實支材料費
+|------+------------------------------------------------+------+------+-------|
+| 品名 | 單價                                           | 數量 | 用途 |  總價 |
+|------+------------------------------------------------+------+------+-------|
+|      | [[https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 Lightning 資料傳輸線 (1 公尺)]]         |    2 |  590 |  1180 |
+|      | [[https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO][512GB USD300S microSDXC UHS-I U3(V30/A1)記憶卡]] |    2 |  999 |  1998 |
+|      | [[https://24h.pchome.com.tw/prod/DRAA02-A900AWQV3][SanDisk E61 2TB 2.5吋行動固態硬碟]]              |    3 | 3688 | 11064 |
+|    5 | [[https://www.apple.com/tw/shop/product/MLUN2FE/A/apple-pencil-%E7%AD%86%E5%B0%96-4-%E4%BB%B6%E8%A3%9D][Apple Pencil 筆尖-4件裝]]                        |    1 |  625 |   625 |
+|      | [[https://24h.pchome.com.tw/prod/DGAX9Y-A900GG277][Apple Macbook 鍵盤保護膜]]                       |    1 |  520 |   520 |
+|      | [[https://24h.pchome.com.tw/prod/DYAZ1P-A900G4G9R?fq=/S/DYAZ1O][ELECOM 可拆式類紙膜]]                            |    1 |  872 |   872 |
+|      | [[https://24h.pchome.com.tw/prod/DYAR12-A900AOK03][Apple iPad 保護套]]                              |    1 |  950 |   950 |
+|      | [[https://24h.pchome.com.tw/prod/DCANDJ-A9008ZFDA][Perixx德國佩銳–垂直滑鼠 ]]                       |    1 |  990 |   990 |
+|      | [[https://24h.pchome.com.tw/prod/DRAGCN-A900GDE8P][Synology HAT3300 PLUS系列 4TB/ NAS硬碟]]         |    2 | 3999 |  7998 |
+|   12 | Google USB-C 耳塞式耳機                        |    1 | 1070 |  1070 |
+|   13 | 羅技 MK295 靜音鍵鼠組-石墨灰                   |    1 |  990 |   990 |
+|------+------------------------------------------------+------+------+-------|
+|      |                                                |      |      | 28257 |
+|------+------------------------------------------------+------+------+-------|
+#+TBLFM: $5=$3*$4::@>$5=vsum(@2$5..@-1$5)
+
+* 2023新興計畫:材料費/20萬
+|----------------------------------------------------------+-------+------+----------------------+--------|
+| 品名                                                     |  單價 | 數量 | 用途                 |   總價 |
+|----------------------------------------------------------+-------+------+----------------------+--------|
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PBC][FujiXerox CT201632黑色相容碳粉匣]]                         |   990 |    2 | 教學、教材製作       |   1980 |
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PH5][FujiXerox CT201635黃色相容碳粉匣]]                         |   990 |    1 | 教學、教材製作       |    990 |
+| [[https://24h.pchome.com.tw/prod/DCAT02-A90098PEK][FujiXerox CT201634紅色相容碳粉匣]]                         |   990 |    1 | 教學、教材製作       |    990 |
+| [[https://24h.pchome.com.tw/prod/QAAD01-A9009BT9H][FujiXerox CT201633藍色相容碳粉匣]]                         |   990 |    1 | 教學、教材製作       |    990 |
+| [[https://24h.pchome.com.tw/prod/DRAHEY-A900FI4MZ][MSI微星 SPATIUM M450 500GB PCIe 4.0 NVMe M.2 SSD]]         |   990 |   10 | 教學用、學生專題製作 |   9900 |
+| [[https://24h.pchome.com.tw/prod/DRAB9I-A900GPPOT][TEKQ Type C USB 3.1 Gen 2 PCIe 10Gbps M.2 NVMe SSD外接盒]] |   809 |    3 | 教學用、學生專題製作 |   2427 |
+| [[https://24h.pchome.com.tw/prod/DRAHBH-A900GIMXD][noda Lite M.2 SSD外接盒]]                                  |   990 |    7 | 教學用、學生專題製作 |   6930 |
+| [[https://store.logitech.tw/products/h340-usb%E8%80%B3%E6%A9%9F%E9%BA%A5%E5%85%8B%E9%A2%A8?variant=40018410962967&currency=TWD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gclid=Cj0KCQjw4vKpBhCZARIsAOKHoWQ9p4AQZEIH84JX36TMlQUhAQibU3bXztiaEGVsk_3kEBUyBn1SPvEaAjp1EALw_wcB][H340 USB耳機麥克風 ]]                                      |   949 |   42 | 教學用、學生專題製作 |  39858 |
+| [[https://24h.pchome.com.tw/prod/DCAS4K-A9007OPUK][網路攝影機]]                                               |   599 |    5 | 教學用、學生專題製作 |   2995 |
+| [[https://www.apple.com/tw/shop/product/MLUN2FE/A/apple-pencil-%E7%AD%86%E5%B0%96-4-%E4%BB%B6%E8%A3%9D][Apple 觸控筆筆尖 - 4 件裝]]                                |   590 |    1 | 教學、教材製作       |    590 |
+| [[https://24h.pchome.com.tw/prod/DCABD3-A900C1UUZ][Panasonic NCR18650GA 3450mAh ]]                            |   990 |   10 | 教學用、學生專題製作 |   9900 |
+| [[https://24h.pchome.com.tw/prod/DCABC4-A900AZHWE][18650LCD液晶四槽複合式充電器]]                             |   690 |    2 | 教學用、學生專題製作 |   1380 |
+| [[https://24h.pchome.com.tw/prod/DCABF6-A84191126][日本Panasonic國際牌eneloop 3號充電器]]                     |   999 |    2 | 教學用、學生專題製作 |   1998 |
+| [[https://24h.pchome.com.tw/prod/DCABF6-A84191807][日本Panasonic國際牌eneloop 4號充電器]]                     |   999 |    2 | 教學用、學生專題製作 |   1998 |
+| [[https://24h.pchome.com.tw/prod/DCABCY-A900B4VPP][Panasonic eneloop pro 高階4號充電電池]]                    |   891 |   10 | 教學用、學生專題製作 |   8910 |
+| [[https://24h.pchome.com.tw/prod/DCABCY-A900B4VPU][Panasonic eneloop pro 高階3號充電電池]]                    |   891 |   10 | 教學用、學生專題製作 |   8910 |
+| [[https://www.apple.com/tw/shop/product/MJ1M2FE/A/usb-c-%E5%B0%8D-usb-%E8%BD%89%E6%8E%A5%E5%99%A8?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 USB 轉接器]]                                      |   590 |   10 | 教學用、學生專題製作 |   5900 |
+| [[https://www.apple.com/tw/shop/product/MU2G3FE/A/240w-usb-c-%E5%85%85%E9%9B%BB%E9%80%A3%E6%8E%A5%E7%B7%9A-2-%E5%85%AC%E5%B0%BA?fnode=84db3bb8f8390133fc61ccdc1d66e27f12d1eb8f4117ac2b8b5585b441868056bc28fb61bcaa457ea4800cd36e79b9d924e1e23fb8a913189ddcc8f1c91a9eed6798bad6ced62afdba0f3726c303d83bcbe3fb22101ce59ba4cab21ab01dcd60][USB-C 資料傳輸線]]                                         |   990 |   10 | 教學用、學生專題製作 |   9900 |
+| [[https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 Lightning 資料傳輸線 (1 公尺)]]                   |   590 |   10 | 教學用、學生專題製作 |   5900 |
+| [[https://www.apple.com/tw/shop/product/MU7E2FE/A/usb-c-%E5%B0%8D-35-%E5%85%AC%E9%87%90%E8%80%B3%E6%A9%9F%E6%8F%92%E5%AD%94%E8%BD%89%E6%8E%A5%E5%99%A8?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9][USB-C 對 3.5 公釐耳機插孔轉接器]]                          |   290 |    5 | 教學用、學生專題製作 |   1450 |
+| [[https://www.apple.com/tw/shop/product/MXLY2FE/A/lightning-%E5%B0%8D-usb-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA][Lightning 對 USB 資料傳輸線 (1 公尺)]]                     |   590 |    8 | 教學用、學生專題製作 |   4720 |
+| [[https://www.apple.com/tw/shop/product/HJKF2ZM/A/belkin-usb-c-%E5%B0%8D-gigabit-%E4%B9%99%E5%A4%AA%E7%B6%B2%E8%B7%AF%E8%BD%89%E6%8E%A5%E5%99%A8?fnode=4fe878ae35294e188aa4c1176a52f468fb4322962bb87a94c9da29d4fcc2692dc5e5c9d42de219d18ce77da5da80dd761c262d165cacac69e2b6b761e5f61908f36e036f1ad605a51e5a91389fde10fcb9fe7de8d8bdd58b3c40f535e021100b][Belkin USB-C 對 Gigabit 乙太網路轉接器]]                   |   990 |    1 | 教學用、學生專題製作 |    990 |
+| [[https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO][512GB USD300S microSDXC UHS-I U3(V30/A1)記憶卡]]           |   999 |   10 | 教學用、學生專題製作 |   9990 |
+| [[https://24h.pchome.com.tw/prod/DGCD1E-A900AIK41][SanDisk Ultra Luxe Type-C 雙用隨身碟256GB]]                |   799 |    5 | 教學用、學生專題製作 |   3995 |
+| [[https://24h.pchome.com.tw/prod/DMALBY-A900G2NCJ][DIKE 工業級鋁合金六開五座電源延長線-2.7M DAH259BK]]        |   999 |   10 | 教學用、學生專題製作 |   9990 |
+| [[https://24h.pchome.com.tw/prod/DCACE5-A900BD6TH][Commscope - AMP六類(CAT.6)1米無遮蔽網路線(黃色)]]          |   405 |    5 | 教學用、學生專題製作 |   2025 |
+| [[https://24h.pchome.com.tw/prod/DCACE5-A900BD6LN][Commscope - AMP六類(CAT.6)1米無遮蔽網路線(綠色)]]          |   405 |    5 | 教學用、學生專題製作 |   2025 |
+| [[https://24h.pchome.com.tw/prod/DGAX9Y-A900GG277][Apple Macbook 鍵盤保護膜]]                                 |   520 |    1 | 教學用、學生專題製作 |    520 |
+| [[https://24h.pchome.com.tw/prod/DYAZ1P-A900G4G9R?fq=/S/DYAZ1O][ELECOM 可拆式類紙膜]]                                      |   872 |    3 | 教學用、學生專題製作 |   2616 |
+| [[https://24h.pchome.com.tw/prod/DYAR12-A900AOK03][Apple iPad 保護套]]                                        |   950 |    1 | 教學用、學生專題製作 |    950 |
+| [[https://24h.pchome.com.tw/prod/DCANDJ-A9008ZFDA][Perixx德國佩銳–垂直滑鼠 ]]                                 |   990 |    5 | 教學用、學生專題製作 |   4950 |
+| ================文具/工具=================               |       |      |                      |      0 |
+| [[https://24h.pchome.com.tw/prod/DECA4T-A900AB5LN][電動螺絲刀]]                                               |   958 |    1 | 教學用、學生專題製作 |    958 |
+| [[https://24h.pchome.com.tw/prod/DCACMQ-A9009FDBI][超細魔鬼氈束線帶]]                                         |   110 |    9 | 教學用、學生專題製作 |    990 |
+| [[https://24h.pchome.com.tw/prod/DCACA6-A9006SDWH][魔鬼氈束線帶-3入/組]]                                      |   150 |    6 | 教學用、學生專題製作 |    900 |
+| [[https://24h.pchome.com.tw/prod/DCACAL-A900FQCM2][尼龍束線帶]]                                               |   209 |    4 | 教學用、學生專題製作 |    836 |
+| [[https://24h.pchome.com.tw/prod/DEACFW-A9009ATKL][消費性電子產品維修工具組]]                                 |   632 |    2 | 教學用、學生專題製作 |   1264 |
+| [[https://24h.pchome.com.tw/prod/DECA42-A900C3GZQ][迷你電鑽USB電動雕刻刀]]                                    |   990 |    1 | 教學用、學生專題製作 |    990 |
+| [[https://24h.pchome.com.tw/prod/DECA0H-A900FFOO3][無線USB電動螺絲起子]]                                      |   729 |    1 | 教學用、學生專題製作 |    729 |
+| [[https://www.pcstore.com.tw/suey23375094/M84691486.htm][防靜電如意細刀口斜口鉗]]                                   |   220 |    1 | 教學用、學生專題製作 |    220 |
+| [[https://www.pcstore.com.tw/suey23375094/M84691446.htm][黃柄鑄鋼強力長嘴鉗]]                                       |   220 |    1 | 教學用、學生專題製作 |    220 |
+| [[https://24h.pchome.com.tw/prod/DCAP4R-A900G9OUR][A4 姓名貼膠質貼紙]]                                        |   360 |    2 | 教學用、學生專題製作 |    720 |
+| [[https://24h.pchome.com.tw/store/DQBBE4][WD-40]]                                                    |   499 |    1 | 教學用、學生專題製作 |    499 |
+| [[https://24h.pchome.com.tw/prod/DEAC9H-A9006TK59][快乾型精密電器(電子接點)清潔劑]]                           |   359 |    2 | 教學用、學生專題製作 |    718 |
+| ====================書櫃/置物櫃====================      |       |      |                      |      0 |
+| [[https://www.shuter.com.tw/tw/product/st/a5v-336][A5V-336 三排 36格 零件櫃]]                                 |  5080 |    2 | 教材、教學設備存放   |  10160 |
+| [[https://www.hz.com.tw/sya4800hb-%E5%A4%A7%E5%AF%8Ca4%E7%84%A1%E6%A1%86%E7%8E%BB%E7%92%83%E6%8B%89%E9%96%80%E8%90%BD%E5%9C%B0%E5%9E%8B%E6%95%88%E7%8E%87%E6%AB%83%E4%B8%8A%E4%B8%8B%E5%BA%95%E5%BA%A7-p-5547.html][大富A4無框玻璃拉門+落地型效率櫃]]                          | 13124 |    1 | 教材、教學設備存放   |  13124 |
+|----------------------------------------------------------+-------+------+----------------------+--------|
+|                                                          |       |      |                      | 198995 |
+|----------------------------------------------------------+-------+------+----------------------+--------|
+#+TBLFM: $5=$3*$2::@>$5=vsum(@2$5..@-1$5)
+
+* 2022 :noexport:
 |--------------------------------------------+-------+------+--------|
 | 品名                                       |  單價 | 數量 |   總價 |
 |--------------------------------------------+-------+------+--------|
@@ -18,78 +227,3 @@
 |                                            |       |      | 139593 |
 |--------------------------------------------+-------+------+--------|
 #+TBLFM: $4=$3*$2::@13$4=vsum(@2$4..@-1$4)
-
-* Letranger shopping list
-- CM Storm QuickFire Rapid-i
-
-* iPhone 7 128G 空機價
-|-------+-------|
-| Store | Price |
-|-------+-------|
-| [[https://www.facebook.com/look5833/][路克]]  | 23900 |
-|-------+-------|
-
-** iPhone 7 128G NP 合約價
-|---------------------+--------------+--------+-----+-------|
-| Commun Store        | ISP          | Period | Fee | Price |
-|---------------------+--------------+--------+-----+-------|
-| 圓方                | 台灣大哥大   |        | 599 | 16700 |
-|                     | 遠傳電信     |        | 599 |       |
-|                     | 中華電信     |        | 589 | 16300 |
-|                     | 亞太電信學生 |        | 498 | 16300 |
-|                     |              |        |     |       |
-|---------------------+--------------+--------+-----+-------|
-| [[https://www.facebook.com/look5833/][路客]]                |              |        |     |       |
-|                     |              |        |     |       |
-| 楠梓區軍校路 694 號 |              |        |     |       |
-| 0909436000          |              |        |     |       |
-| 前鎮區正勤路 62 號  |              |        |     |       |
-| 0978755503          |              |        |     |       |
-| 07-5379051          |              |        |     |       |
-
-
-** keyboard
-- Kailh Box Jade switches 
-- KBD
-
-* Food
-** 壽喜燒
-- 北澤壽喜燒專門店(高雄遠百俱樂部)
-
-
-* 永進，幫忙想想看囉～
-
-
-如果貴校有個班級（一校至少30生），實施stem/steam（比如機器人專題），可能收集什麼資料或做什麼比較（實作檢核、加入額外一兩題皆可，但除此之外，有何現成的證據）⋯⋯
-以便瞭解教學實驗對學生的效果
-從學校或政府既有的資料下手，對家長、外界（政府、立委等）會較有說服力􀂏
-
-其實嚴格說，也不太像施測，實施學校是指，進行跨領域（STEM/STEAM的PBL活動學習），經過這些活動的洗禮，我們想要抓到這些學生，他們在學習成效/表現上，是否有比一般班級的學生來的好或沒差別？我們現在苦於，不知要如何比較？所以問題一，二，實施學校的跨科教學，或跨領域學習活動不一定是一樣的科目（若該校是實施數學，就比較數學，若實施自然科技，就比自然科技），這些還是校內自己比（即找一班實施班級，及一班一般班級，或實施班在整學年中的表現等），問題三，我們是盡可能不會再加測額外的能力測驗
-
-16:19 husw 因為我們想看實施學校（30間學校，每校會有一班學生實施）的那一班學生，與其他一般班級（未施測的班級），在成效上是否可看出差異？
-16:26 husw 但碰到一個困難，即是「要如何從學校現有的考試了解這些實施學校學生的學習成效」？假如要比較實施與未實施學生的差異，因各校的考試不同，如何拉到一個水平上來比較？國小部分，以前有國教院的學力測驗可供參考，現也取消了，國高中的PISA測驗，好像也沒有各校都測，所以就碰到瓶頸
-16:26 husw 因此，老師想要徵詢學長的意見，「要如何從學校現有的考試了解這些實施學校學生的學習成效？」
-
-學長，數位學習深耕計畫在1/25日開了啟動會議，教育部也審定過了，學長列在核心諮詢顧問中，我再附寄2個檔案給學長，一個是PPT（邱老師負責總計畫中的子四計畫），一個是總計畫，我們是第四子計畫，再請學長看看，謝謝
-
-Q:123:2:0,106R1:73:1:1,106R1:74:1:1,106R1:75:1:1,106R2:87:1:2,106R2:88:1:2,106R3:98:1:3,106R3:99:1:3,106R3:100:1:3
-* 試軸器
-** Ruby
-您好，我要 C+E方案組合
-紅底座
-Cherry 青軸
-中灰鍵帶燈罩鍵帽
-排版編號B
-圖版P33
-字版編號25:
-下排刻：To go all out.
-買五組，上排分別刻以下內容
-1. Letranger
-2. Ruby
-3. James
-4. Vanessa
-5. Jane
-
-請問這樣的內容標示清楚嗎？應如何下單？
-另，上次電話詢問，小姐說可以送灯，OK嗎？
-
