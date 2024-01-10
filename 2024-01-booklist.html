@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-10 Wed 09:11 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2024/1 TNFSH採購建議書單</title>
+<meta name="author" content="Yung-Chin Yen" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">2024/1 TNFSH採購建議書單</h1>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">書名</th>
+<th scope="col" class="org-left">出版社</th>
+<th scope="col" class="org-left">作者</th>
+<th scope="col" class="org-left">出版日期</th>
+<th scope="col" class="org-right">定價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010960295?loc=P_br_r0vq68ygz_D_2aabd0_B_1">AI如何重塑教育</a></td>
+<td class="org-left">親子天下</td>
+<td class="org-left">陳雅慧</td>
+<td class="org-left">2023/06/29</td>
+<td class="org-right">420</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010972873?sloc=main">Bing Chat與Copilot邁向文字、視覺、繪圖、語音、程式的AI體驗王者歸來(全彩印刷)</a></td>
+<td class="org-left">深智數位</td>
+<td class="org-left">洪錦魁</td>
+<td class="org-left">2023/11/13</td>
+<td class="org-right">520</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010973679?sloc=main">最強 AI 投資分析：打造自己的股市顧問機器人</a></td>
+<td class="org-left">旗標</td>
+<td class="org-left">施威銘研究室</td>
+<td class="org-left">2023/11/24</td>
+<td class="org-right">750</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010966593?sloc=main">AI醫療革命：GPT-4與未來</a></td>
+<td class="org-left">天下文化</td>
+<td class="org-left">塞巴斯汀．布貝克</td>
+<td class="org-left">2023/09/05</td>
+<td class="org-right">480</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010936685?sloc=main">AI大圖鑑：伽利略科學大圖鑑12</a></td>
+<td class="org-left">人人出版</td>
+<td class="org-left">日本Newton Press</td>
+<td class="org-left">2022/09/29</td>
+<td class="org-right">630</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010844923?sloc=main">機器學習工程師面試全破解</a></td>
+<td class="org-left">博碩</td>
+<td class="org-left">葫蘆娃</td>
+<td class="org-left">2020/01/06</td>
+<td class="org-right">650</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010847016?sloc=main">深度學習的商戰必修課</a></td>
+<td class="org-left">臉譜</td>
+<td class="org-left">日経クロストレンド</td>
+<td class="org-left">2020/02/01</td>
+<td class="org-right">420</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010971860?sloc=main">AI提示工程師的16堂關鍵必修課</a></td>
+<td class="org-left">博碩</td>
+<td class="org-left">吳燦銘</td>
+<td class="org-left">2023/11/10</td>
+<td class="org-right">620</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010873183?sloc=main">圖解AI：機器學習和深度學習的技術與原理</a></td>
+<td class="org-left">碁峰</td>
+<td class="org-left">株式会社アイデミー</td>
+<td class="org-left">2020/10/16</td>
+<td class="org-right">450</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010915647?sloc=main">銷售 AI 化！看資料科學家如何思考</a></td>
+<td class="org-left">旗標</td>
+<td class="org-left">Masanori Akaishi</td>
+<td class="org-left">2022/02/15</td>
+<td class="org-right">620</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010897878?sloc=main">圖解AI與深度學習的運作機制</a></td>
+<td class="org-left">台灣東販</td>
+<td class="org-left">涌井貞美</td>
+<td class="org-left">2021/08/06</td>
+<td class="org-right">480</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010957861?sloc=main">圖解AI人工智慧</a></td>
+<td class="org-left">碁峰</td>
+<td class="org-left">三津村直貴</td>
+<td class="org-left">2023/06/01</td>
+<td class="org-right">480</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010890608?sloc=main">從程式員到AI專家</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Laurence Moroney</td>
+<td class="org-left">2021/05/04</td>
+<td class="org-right">680</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010917074?sloc=main">Flag’s 創客‧自造者工作坊 用 AI 影像辨識學機器學習</a></td>
+<td class="org-left">旗標</td>
+<td class="org-left">施威銘研究室</td>
+<td class="org-left">2022/03/15</td>
+<td class="org-right">1299</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010927972?sloc=main">Flag’s 創客‧自造者工作坊 用 ESP32 × Arduino IDE 學 AI 機器學習</a></td>
+<td class="org-left">旗標</td>
+<td class="org-left">施威銘研究室</td>
+<td class="org-left">2022/07/04</td>
+<td class="org-right">1599</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010951909?sloc=main">運用AI協助ESG實踐</a></td>
+<td class="org-left">傑克商業自動化股份有限公司</td>
+<td class="org-left">黃秀鳳</td>
+<td class="org-left">2022/12/01</td>
+<td class="org-right">1200</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010961830?sloc=main">當教會遇見AI</a></td>
+<td class="org-left">真哪噠</td>
+<td class="org-left">王道維</td>
+<td class="org-left">2023/07/14</td>
+<td class="org-right">250</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010799874?sloc=main">AI必修課</a></td>
+<td class="org-left">世茂</td>
+<td class="org-left">坂本真樹</td>
+<td class="org-left">2018/10/03</td>
+<td class="org-right">300</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010967276?sloc=main">AI GNN再進化</a></td>
+<td class="org-left">深智數位</td>
+<td class="org-left">吳凌飛</td>
+<td class="org-left">2023/09/20</td>
+<td class="org-right">1200</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010968713?sloc=main">ChatGPT X Keras X PyTorch全方位應用實踐指南</a></td>
+<td class="org-left">博碩</td>
+<td class="org-left">黃朝隆</td>
+<td class="org-left">2023/10/12</td>
+<td class="org-right">720</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010801697?sloc=main">Raspberry Pi x Python x Prolog</a></td>
+<td class="org-left">碁峰</td>
+<td class="org-left">Donald J. Norris</td>
+<td class="org-left">2018/10/17</td>
+<td class="org-right">580</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010950347?sloc=main">機器學習模擬應用</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Paris Buttfield-Addison</td>
+<td class="org-left">2023/03/03</td>
+<td class="org-right">680</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010973879?sloc=main">Python程式設計與OpenAI API應用</a></td>
+<td class="org-left">博碩</td>
+<td class="org-left">王進德</td>
+<td class="org-left">2023/11/29</td>
+<td class="org-right">600</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010972516?sloc=main">AI與大數據技術導論（基礎篇）</a></td>
+<td class="org-left">崧燁文化</td>
+<td class="org-left">楊正洪</td>
+<td class="org-left">2023/11/15</td>
+<td class="org-right">450</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010930181?sloc=main">AI開發的機器學習系統設計模式</a></td>
+<td class="org-left">碁峰</td>
+<td class="org-left">澁井雄介</td>
+<td class="org-left">2022/07/22</td>
+<td class="org-right">620</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010935238?sloc=main">Hey Siri及Ok Google原理</a></td>
+<td class="org-left">深智數位</td>
+<td class="org-left">楊學銳,</td>
+<td class="org-left">2022/09/20</td>
+<td class="org-right">880</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010870146?sloc=main">AI語音辨識：用Kaldi實作應用全集</a></td>
+<td class="org-left">深智數位</td>
+<td class="org-left">陳果果</td>
+<td class="org-left">2020/09/21</td>
+<td class="org-right">880</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010898739?sloc=main">AI智慧交通理論與實踐</a></td>
+<td class="org-left">台科大</td>
+<td class="org-left">王江鋒</td>
+<td class="org-left">2021/07/21</td>
+<td class="org-right">620</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010751101?sloc=main">從人到人工智慧</a></td>
+<td class="org-left">臉譜</td>
+<td class="org-left">三宅陽一郎</td>
+<td class="org-left">2017/05/06</td>
+<td class="org-right">360</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010967639?loc=P_0005_019">ColorWise｜用顏色說故事</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">吳佳欣</td>
+<td class="org-left">2023/09/19</td>
+<td class="org-right">480</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010961493?loc=P_0005_025">深入淺出 Git</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Raju Gandhi</td>
+<td class="org-left">2023/07/21</td>
+<td class="org-right">780</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010960299?loc=P_0005_028">金融風險管理的機器學習應用</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Abdullah Karasan</td>
+<td class="org-left">2023/07/04</td>
+<td class="org-right">680</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010957707?loc=P_0005_029">TypeScript學習手冊</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Josh Goldberg</td>
+<td class="org-left">2023/06/01</td>
+<td class="org-right">580</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010953604?loc=P_0005_033">資料科學基礎數學</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Thomas Nield</td>
+<td class="org-left">2023/04/11</td>
+<td class="org-right">680</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010951999?loc=P_0005_035">Kubernetes建置與執行 第三版</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Brendan Burns,</td>
+<td class="org-left">2023/03/22</td>
+<td class="org-right">580</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010943188?loc=P_0005_041">精通 vi 與 Vim 第八版</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Arnold Robbins,</td>
+<td class="org-left">2022/12/08</td>
+<td class="org-right">880</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010940277?loc=P_0005_043">深入淺出Android開發 第三版</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Dawn Griffiths</td>
+<td class="org-left">2022/11/11</td>
+<td class="org-right">1200</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010938431?loc=P_0005_046">深入淺出Swift程式設計</a></td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Paris Buttfield-Addison</td>
+<td class="org-left">2022/10/20</td>
+<td class="org-right">780</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010895353?loc=P_0005_083">金融AI</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Yves Hilpisch</td>
+<td class="org-left">2021/07/08</td>
+<td class="org-right">880</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010880194?loc=P_0005_002">自然語言處理最佳實務</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Sowmya Vajjala,</td>
+<td class="org-left">2021/01/05</td>
+<td class="org-right">780</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010876562?loc=P_0005_007">零信任網路</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Evan Gilman</td>
+<td class="org-left">2020/11/26</td>
+<td class="org-right">480</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010852754?loc=P_0005_028">非監督式學習：使用Python</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Ankur A. Patel</td>
+<td class="org-left">2020/03/25</td>
+<td class="org-right">680</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010834522?loc=P_0005_037">深度學習：生命科學應用</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Bharath Ramsundar,</td>
+<td class="org-left">2019/09/25</td>
+<td class="org-right">580</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010807758?loc=P_0005_052">Kubernetes錦囊妙計</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Sébastien Goasguen,</td>
+<td class="org-left">2018/12/13</td>
+<td class="org-right">420</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010788444?loc=P_0005_068">優雅的SciPy</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Juan Nunez-Iglesias</td>
+<td class="org-left">2018/06/01</td>
+<td class="org-right">580</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11554902?sloc=main">Python 深度學習實戰</a></td>
+<td class="org-left">機械工業出版社</td>
+<td class="org-left">（荷）英德拉·丹·巴克</td>
+<td class="org-left">2018/06/01</td>
+<td class="org-right">474</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11897958?sloc=main">自然語言處理遷移學習實戰</a></td>
+<td class="org-left">人民郵電出版社</td>
+<td class="org-left">（加納）保羅·阿祖雷</td>
+<td class="org-left">2023/07/01</td>
+<td class="org-right">479</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11717713?sloc=main">人工智能技術叢書：遷移學習</a></td>
+<td class="org-left">機械工業出版社</td>
+<td class="org-left">楊強</td>
+<td class="org-left">2020/08/01</td>
+<td class="org-right">834</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11722076?sloc=main">遷移學習導論</a></td>
+<td class="org-left">電子工業出版社</td>
+<td class="org-left">王晉東</td>
+<td class="org-left">2021/06/01</td>
+<td class="org-right">654</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11719191?sloc=main">Python遷移學習</a></td>
+<td class="org-left">人民郵電出版社</td>
+<td class="org-left">（印）迪潘簡•撒卡爾</td>
+<td class="org-left">2020/10/01</td>
+<td class="org-right">534</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010844123?sloc=main">NumPy 高速運算徹底解說</a></td>
+<td class="org-left">施威銘研究室</td>
+<td class="org-left">吉田拓真,</td>
+<td class="org-left">2020/01/17</td>
+<td class="org-right">750</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010908742?sloc=main">Python資料分析必備套件</a></td>
+<td class="org-left">旗標</td>
+<td class="org-left">Matt Harrison</td>
+<td class="org-left">2021/11/26</td>
+<td class="org-right">780</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010800965?sloc=main">網站擷取：使用Python（二版）</a></td>
+<td class="org-left">歐萊禮</td>
+<td class="org-left">Ryan Mitchell</td>
+<td class="org-left">2018/10/09</td>
+<td class="org-right">580</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">總價</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">35563</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Yung-Chin Yen</p>
+<p class="date">Created: 2024-01-10 Wed 09:11</p>
+</div>
+</body>
+</html>
