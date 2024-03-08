@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-08 Fri 20:29 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>2024新興計畫採購清單</title>
+<meta name="author" content="Yung-Chin Yen" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="../css/muse.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">2024新興計畫採購清單</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orga2a479b">1. 設備費用途</a></li>
+<li><a href="#org585dffa">2. 設備費/30</a></li>
+<li><a href="#org20f5459">3. 物品費/10</a></li>
+<li><a href="#org8d4cda5">4. 材料費/5</a></li>
+</ul>
+</div>
+</div>
+<a href="https://hits.sh/letranger.github.io/TNFSH/403BuyList.html/"><img align="right" alt="Hits" src="https://hits.sh/letranger.github.io/TNFSH/403BuyList.html.svg"/></a>
+<div id="outline-container-orga2a479b" class="outline-2">
+<h2 id="orga2a479b"><span class="section-number-2">1.</span> 設備費用途</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li>M3 Macbook Pro: 編寫開發上課教材，錄製、編輯教學影片，測試、挑選合適之教學用AI模型。<br /></li>
+<li>無線耳戴麥克風組: 改善教室教學環境用，舊有教學用麥克風過於老舊不堪使用，不僅會受到手機訊號干擾，還會因使用者移動位置而出現短暫斷訊或發出巨大音爆，干擾正常上課。<br /></li>
+<li>無線麥克風組: 錄製上課教學影片用，舊有收音設備抗雜訊功能太差，所錄製教學影片往往將教室內冷氣機運作聲音、網路交換機風扇、穩壓器低頻雜音一併收錄至影片中，致使影片音質低落，影響教學成效。<br /></li>
+<li>自動追蹤攝影機: 錄製教學影片，方便將螢幕外的教學活動(如白板板書、其他學生問答、教師肢體活動等)一併收錄，強化線上教學或遠距作教學的互動性與學生參與臨場感。<br /></li>
+<li><a href="https://robotkingdom.com.tw/product/rk-nvidia-jetson-nano-developer-dlikit-9/">RK-NVIDIA® Jetson Nano™ B01套件</a>: 如果是因為經費問題，這個的優先權應該列在建圖智慧車之前，因為這個其實更能反應評審「建議能多添置一些與新興科技有關之場域及設備,以利體驗活動之推展。」的要求，這是提供學生可以拿來開發電腦與影像識別之外的應用設備，可以用來實作一些物聯網之類的AI應用，不過我自己也沒用過，所以還不是很清楚在課程範圍內所教的知識能讓學生做出什麼實作成果出來。我需要先弄一台來玩玩看，不然你叫主任去找錢買一台先給我玩好了。<br /></li>
+<li>建圖智慧車: 這台是Jetson Nano的進階版本，我是想來開發一些更大型的應用。因為這台有行動能力，可以玩校內自走車的應用專題，例如在各處室送公文之類的&#x2026;..QQ，但是跟Jetson Nano一樣，我也沒玩過，沒實際的體驗，不知道能玩出什麼，所以如果經費有限，這台可以先跳，買Jetson Nano就好。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org585dffa" class="outline-2">
+<h2 id="org585dffa"><span class="section-number-2">2.</span> 設備費/30</h2>
+<div class="outline-text-2" id="text-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">品名</th>
+<th scope="col" class="org-right">單價</th>
+<th scope="col" class="org-right">數量</th>
+<th scope="col" class="org-left">用途</th>
+<th scope="col" class="org-right">總價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCAS7T-A900FWXSA">【美國ADESSO】超廣角網路攝影機 視訊鏡頭 C100 4K 內建喇叭/麥克風</a></td>
+<td class="org-right">8999</td>
+<td class="org-right">1</td>
+<td class="org-left">錄製教學內容</td>
+<td class="org-right">8999</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.sgec.com.tw/product/%e8%a6%96%e7%b4%80%e9%9f%b3%e9%9f%bf-mipro-%e5%98%89%e5%bc%b7-act-323-1u-%e9%9b%99%e9%a0%bb-%e7%84%a1%e7%b7%9a%e9%ba%a5%e5%85%8b%e9%a2%a8-2%e6%94%af-%e8%87%aa%e5%8b%95%e9%81%b8%e8%a8%8a-%e6%8e%a5/">視紀音響 MIPRO 嘉強 ACT-323 1U 雙頻</a></td>
+<td class="org-right">14000</td>
+<td class="org-right">1</td>
+<td class="org-left">改善教室教學環境</td>
+<td class="org-right">14000</td>
+</tr>
+
+<tr>
+<td class="org-left">領夾式麥克風 + 佩戴式發射器</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-left">頭戴式麥克風 + 佩戴式發射器</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.taiwaniot.com.tw/product/nvidia-jetson-nano-developer-kit-b01/">NVIDIA® Jetson Nano ™ Developer Kit 開發套件</a></td>
+<td class="org-right">11220</td>
+<td class="org-right">2</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">22440</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://shop.playrobot.com/products/veo0068">Intel D43ti深度攝影機</a></td>
+<td class="org-right">13300</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">13300</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DGAFAJ-A900GEDNU">RODE PODMIC USB 動圈式麥克風</a></td>
+<td class="org-right">7182</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">7182</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/buy-mac/macbook-pro/14-%E5%90%8B-m3">14吋M3 Macbook Pro</a></td>
+<td class="org-right">51900</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">51900</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.techsmith.com/store/snagit">Snagit 2024</a> 螢幕截取軟體</td>
+<td class="org-right">1890</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">1890</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.techsmith.com/store/camtasia">Camtasia</a> 教學影片編修軟體</td>
+<td class="org-right">9000</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">9000</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DGCR0Y-A900C3CDC">桌上型三腳架</a></td>
+<td class="org-right">2960</td>
+<td class="org-right">2</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">5920</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DGCR0Y-A900A5ZBR?fq=/S/DGCR0Y">反折三腳架</a></td>
+<td class="org-right">3080</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">3080</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://shop.mirotek.com.tw/shop/100050/">Nvidia SLAM建圖智慧車</a></td>
+<td class="org-right">58480</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、教材開發</td>
+<td class="org-right">58480</td>
+</tr>
+
+<tr>
+<td class="org-left"><code>===================書===================</code></td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010761759?sloc=main">Deep Learning：用Python進行深度學習的基礎理論實作</a></td>
+<td class="org-right">458</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">458</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010858475?sloc=main">精通 Python：運用簡單的套件進行現代運算（第二版）</a></td>
+<td class="org-right">694</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">694</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010867440?sloc=main">Python 自動化的樂趣：搞定重複瑣碎&amp;單調無聊的工作(第二版)</a></td>
+<td class="org-right">537</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">537</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010925009?sloc=main">零基礎入門的Python自動化投資</a></td>
+<td class="org-right">355</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">355</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010932115?sloc=main">從零開始使用Python打造投資工具</a></td>
+<td class="org-right">585</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">585</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010840414?sloc=main">Python 金融分析（第二版）</a></td>
+<td class="org-right">774</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">774</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010901963?sloc=main">Python金融市場賺大錢聖經</a></td>
+<td class="org-right">702</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">702</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010800867?sloc=main">Python：網路爬蟲與資料分析入門實戰</a></td>
+<td class="org-right">405</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">405</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010844123?sloc=main">NumPy 高速運算徹底解說</a></td>
+<td class="org-right">713</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">713</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010888154?sloc=main">必學！Python 資料科學‧機器學習最強套件</a></td>
+<td class="org-right">646</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">646</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010908742?sloc=main">Python資料分析必備套件！</a></td>
+<td class="org-right">741</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">741</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010786530?sloc=main">超圖解 Python 物聯網實作入門</a></td>
+<td class="org-right">664</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">664</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010883495?sloc=main">Python與LINE Bot機器人全面實戰特訓班</a></td>
+<td class="org-right">434</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">434</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010861459?sloc=main">決心打底！Python 深度學習基礎養成</a></td>
+<td class="org-right">656</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">656</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010863769?sloc=main">少年Py的大冒險</a></td>
+<td class="org-right">399</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">399</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010907137?sloc=main">機器學習的統計基礎</a></td>
+<td class="org-right">646</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">646</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010896119?sloc=main">核心開發者親授！PyTorch深度學習攻略</a></td>
+<td class="org-right">950</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">950</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010857799?sloc=main">深度學習的數學地圖</a></td>
+<td class="org-right">551</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">551</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010901055?sloc=main">深度學習的16堂課</a></td>
+<td class="org-right">589</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">589</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010847016?sloc=main">深度學習的商戰必修課</a></td>
+<td class="org-right">331</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">331</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010873183?sloc=main">圖解AI：機器學習和深度學習的技術與原理</a></td>
+<td class="org-right">355</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">355</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010882877?sloc=main">輕鬆學會Google TensorFlow 2</a></td>
+<td class="org-right">558</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">558</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010831907?sloc=main">最專業的語音辨識全書</a></td>
+<td class="org-right">612</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">612</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010831907?sloc=main">深度學習實務應用</a></td>
+<td class="org-right">695</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">695</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010828410?sloc=main">實戰人工智慧之深度強化學習</a></td>
+<td class="org-right">395</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">395</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010862534?sloc=main">NLP工程師養成術：自然語言處理入門</a></td>
+<td class="org-right">621</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">621</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010833053?sloc=main">TensorFlow自然語言處理</a></td>
+<td class="org-right">489</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">489</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010961355?sloc=main">ChatGPT原理，從PyTorch中的NLP功能讓你一腳跨入自然語言</a></td>
+<td class="org-right">695</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">695</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11575537?sloc=main">Python自然語言處理</a></td>
+<td class="org-right">412</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">412</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11335406?sloc=main">自然語言交流的計算機模型</a></td>
+<td class="org-right">336</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">336</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11408497?sloc=main">NLP漢語自然語言處理原理與實踐</a></td>
+<td class="org-right">588</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">588</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/CN11872805?sloc=main">HuggingFace自然語言處理詳解</a></td>
+<td class="org-right">360</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">360</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.books.com.tw/products/0010894475?sloc=main">初學Jetson Nano不說No</a></td>
+<td class="org-right">379</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">379</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">205517</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org20f5459" class="outline-2">
+<h2 id="org20f5459"><span class="section-number-2">3.</span> 物品費/10</h2>
+<div class="outline-text-2" id="text-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">品名</th>
+<th scope="col" class="org-right">單價</th>
+<th scope="col" class="org-right">數量</th>
+<th scope="col" class="org-left">用途</th>
+<th scope="col" class="org-right">總價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCAT53-A900A6SYY">FujiXerox CT201633~CT201635</a></td>
+<td class="org-right">8880</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">8880</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/HKQ22ZM/A/belkin-usb-c-%E5%B0%8D-hdmi-%E8%BD%89%E6%8E%A5%E5%99%A8?fnode=4fe878ae35294e188aa4c1176a52f468fb4322962bb87a94c9da29d4fcc2692dc5e5c9d42de219d18ce77da5da80dd761c262d165cacac69e2b6b761e5f61908f36e036f1ad605a51e5a91389fde10fcb9fe7de8d8bdd58b3c40f535e021100b">Belkin USB-C 對 HDMI 轉接器</a></td>
+<td class="org-right">1690</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">1690</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/MUFG2TA/A/usb-c-%E5%B0%8D-sd-%E5%8D%A1%E8%AE%80%E5%8D%A1%E6%A9%9F">USB-C 對 SD 卡讀卡機</a></td>
+<td class="org-right">1190</td>
+<td class="org-right">1</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">1190</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/MU883FE/A/thunderbolt-4-usb%E2%80%91c-pro-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9">Thunderbolt 4 (USB‑C) Pro 資料傳輸線</a></td>
+<td class="org-right">2190</td>
+<td class="org-right">2</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">4380</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/MNC73TA/A/siri-remote">Siri remote</a></td>
+<td class="org-right">1790</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用</td>
+<td class="org-right">1790</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DRAB6A-A9009H7NV">Toshiba【N300 NAS碟】10TB 3.5吋NAS硬碟</a></td>
+<td class="org-right">8650</td>
+<td class="org-right">2</td>
+<td class="org-left">教材、專案資料儲存備份</td>
+<td class="org-right">17300</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.2525.com.tw/TW/Showroom83/ugC_ShowroomItem_Detail.asp?hidShowKindID=1073&amp;hidShowID=33086">防潮家 防潮家 FD-82C 84公升</a></td>
+<td class="org-right">5890</td>
+<td class="org-right">2</td>
+<td class="org-left">器材保存設備</td>
+<td class="org-right">11780</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCANV1-A900G4HGF?fq=/S/DCBAH6">無線藍牙簡報器(IX7-00016)</a></td>
+<td class="org-right">1888</td>
+<td class="org-right">1</td>
+<td class="org-left">教學用</td>
+<td class="org-right">1888</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DGCA08-A900FLVUB?fq=/S/DGAG03">SanDisk Ultra microSDXC</a></td>
+<td class="org-right">2999</td>
+<td class="org-right">2</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">5998</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCABD3-A900C1UUZ">Panasonic NCR18650GA 3450mAh </a></td>
+<td class="org-right">990</td>
+<td class="org-right">20</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">19800</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCABC4-A900AZHWE">18650LCD液晶四槽複合式充電器</a></td>
+<td class="org-right">690</td>
+<td class="org-right">8</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">5520</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/MU2G3FE/A/240w-usb-c-%E5%85%85%E9%9B%BB%E9%80%A3%E6%8E%A5%E7%B7%9A-2-%E5%85%AC%E5%B0%BA?fnode=84db3bb8f8390133fc61ccdc1d66e27f12d1eb8f4117ac2b8b5585b441868056bc28fb61bcaa457ea4800cd36e79b9d924e1e23fb8a913189ddcc8f1c91a9eed6798bad6ced62afdba0f3726c303d83bcbe3fb22101ce59ba4cab21ab01dcd60">USB-C 資料傳輸線</a></td>
+<td class="org-right">990</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">9900</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.apple.com/tw/shop/product/MM0A3FE/A/usb-c-%E5%B0%8D-lightning-%E9%80%A3%E6%8E%A5%E7%B7%9A-1-%E5%85%AC%E5%B0%BA?fnode=1fb67c3fa36b37515b38af4d0b1f68095c6460287ee676ff2295a1d4fbe5caa343d2ef36f6f027a03bf6a6df7fdab4d0616e639a8a046f9d20635ab2306eb2670062af50a3ccf4c747fd8fb0c167dbd4b7fa2366a3e4f8a019897891296426a9">USB-C 對 Lightning 資料傳輸線</a></td>
+<td class="org-right">590</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">5900</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">96016</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org8d4cda5" class="outline-2">
+<h2 id="org8d4cda5"><span class="section-number-2">4.</span> 材料費/5</h2>
+<div class="outline-text-2" id="text-4">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">品名</th>
+<th scope="col" class="org-right">單價</th>
+<th scope="col" class="org-right">數量</th>
+<th scope="col" class="org-left">用途</th>
+<th scope="col" class="org-right">總價</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left"><a href="https://shop.playrobot.com/products/nvidia-cet0030">JetsonNano不斷電供應系統UPS模組</a></td>
+<td class="org-right">950</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">9500</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://shop.playrobot.com/products/jetson-nano-b01">Jetson Nano B01金屬外殼雙眼鏡頭支架 </a></td>
+<td class="org-right">399</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">3990</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCAT02-A90098PH5">FujiXerox CT201635黃色相容碳粉匣</a></td>
+<td class="org-right">990</td>
+<td class="org-right">4</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">3960</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCAT02-A90098PH5">FujiXerox CT201635黃色相容碳粉匣</a></td>
+<td class="org-right">990</td>
+<td class="org-right">4</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">3960</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCAT02-A90098PEK">FujiXerox CT201634紅色相容碳粉匣</a></td>
+<td class="org-right">990</td>
+<td class="org-right">4</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">3960</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/QAAD01-A9009BT9H">FujiXerox CT201633藍色相容碳粉匣</a></td>
+<td class="org-right">990</td>
+<td class="org-right">4</td>
+<td class="org-left">教學、教材製作</td>
+<td class="org-right">3960</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DCABFZ-A9006URYS?fq=/S/DCABFZ">CR2032 (10顆入)鈕扣型3V鋰電池</a></td>
+<td class="org-right">250</td>
+<td class="org-right">4</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">1000</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://24h.pchome.com.tw/prod/DGBN53-A900AMBLX?fq=/S/DGAGBO">512GB USD300S microSDXC</a></td>
+<td class="org-right">999</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">9990</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://www.aibo-shop.com.tw/zh-TW/products/iccard-ab24">Type-C ATM晶片+記憶卡 多合一讀卡機 </a></td>
+<td class="org-right">699</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">6990</td>
+</tr>
+
+<tr>
+<td class="org-left"><a href="https://shop.playrobot.com/products/jetson-nano-b01-acrylic-shell">Jetson Nano B01開發板亞克力外殼</a></td>
+<td class="org-right">231</td>
+<td class="org-right">10</td>
+<td class="org-left">教學用、學生專題製作</td>
+<td class="org-right">2310</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">36130</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Yung-Chin Yen</p>
+<p class="date">Created: 2024-03-08 Fri 20:29</p>
+</div>
+</body>
+</html>
