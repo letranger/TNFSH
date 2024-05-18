@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-05-18 Sat 13:54 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Complete Survival Guide for TNFSH Students</title>
+<meta name="author" content="Yung-Chin Yen" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="../css/muse.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">The Complete Survival Guide for TNFSH Students</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org30e7b02">1. MacOS / Terminal</a>
+<ul>
+<li><a href="#org1b26ccd">1.1. MacOS基本操作</a></li>
+<li><a href="#org7afc804">1.2. Terminal</a></li>
+</ul>
+</li>
+<li><a href="#org32fdb5d">2. What is Research</a>
+<ul>
+<li><a href="#org9178970">2.1. 每個想法都有其意義，端看其應用場域</a></li>
+<li><a href="#orgd2a3b5b">2.2. 研究題目的意義</a></li>
+<li><a href="#org01edefa">2.3. 研究題目的大小</a></li>
+<li><a href="#org0345d5f">2.4. 找到一個新題目太難</a></li>
+<li><a href="#org475e75f">2.5. 找論文的具體方法</a></li>
+<li><a href="#orgff8ceb0">2.6. 膠水</a></li>
+<li><a href="#org70325a5">2.7. How to store your ideas</a></li>
+<li><a href="#orgc156d1b">2.8. 研究的程序</a></li>
+</ul>
+</li>
+<li><a href="#org3dd48cc">3. 如何找研究題目</a>
+<ul>
+<li><a href="#orgad4b3f1">3.1. 同一技術應用於不同領域</a></li>
+<li><a href="#orgc126de8">3.2. 待用</a></li>
+<li><a href="#org6e50b06">3.3. 去哪裡找論文</a></li>
+<li><a href="#org72f5a9f">3.4. 什麼是合適的論文</a></li>
+</ul>
+</li>
+<li><a href="#org4f41889">4. 如何閱讀文獻、分析文獻</a>
+<ul>
+<li><a href="#org31305e1">4.1. 目標：</a></li>
+<li><a href="#orgd01c22b">4.2. 內容：</a></li>
+<li><a href="#org8e15f1a">4.3. 文獻搜尋與篩選的工具</a></li>
+<li><a href="#orge30e0f7">4.4. 搜尋方法</a></li>
+<li><a href="#org22badc6">4.5. 文獻回顧到批判創新</a></li>
+</ul>
+</li>
+<li><a href="#orgfe5cda9">5. 一個問題，如何設計研究</a>
+<ul>
+<li><a href="#org65005ec">5.1. 奶茶問題</a></li>
+<li><a href="#orgca2e0d5">5.2. 我有一個新的教學法，如何證明其有效</a></li>
+<li><a href="#orgc22678c">5.3. 如何設計研究</a></li>
+<li><a href="#org6d14e0e">5.4. 任何干擾變數或中介變數都是重大發現</a></li>
+<li><a href="#org278bb14">5.5. 如何將這個架構圖應用到你的研究</a></li>
+<li><a href="#org9b6f6dd">5.6. 如果你有用到調查</a></li>
+<li><a href="#orgd1d1417">5.7. 問卷怎麼進行</a></li>
+</ul>
+</li>
+<li><a href="#org084f931">6. 完成實驗後如何分析解釋結果</a>
+<ul>
+<li><a href="#org317a0ea">6.1. 如何淨化數據</a></li>
+<li><a href="#orgb0d71f3">6.2. 如何分析統計數據</a></li>
+</ul>
+</li>
+<li><a href="#org36c20cb">7. APA</a></li>
+<li><a href="#org78300a0">8. 研究工具</a>
+<ul>
+<li><a href="#org2ea5876">8.1. OS</a></li>
+<li><a href="#org7baf1e5">8.2. hackmd.io</a></li>
+<li><a href="#org073fce8">8.3. Dropbox</a></li>
+<li><a href="#org4525b17">8.4. github</a></li>
+<li><a href="#orgdb247f9">8.5. Excel / Google worksheet</a></li>
+<li><a href="#orgc775616">8.6. SAS / SPSS</a></li>
+<li><a href="#org0de72cd">8.7. office365</a></li>
+<li><a href="#orgcce9294">8.8. R</a></li>
+<li><a href="#orgdde6bf9">8.9. Python</a></li>
+<li><a href="#orgb2a185d">8.10. 玩一下AI</a></li>
+</ul>
+</li>
+<li><a href="#org0338090">9. 批判</a>
+<ul>
+<li><a href="#orgcca4bf3">9.1. 學三件事</a></li>
+<li><a href="#orgec9d450">9.2. 批判性思考</a></li>
+</ul>
+</li>
+<li><a href="#org23a9b56">10. 結論</a></li>
+</ul>
+</div>
+</div>
+<p>
+這裡 <b><b>沒有</b></b>  要介紹什麼<br />
+</p>
+<ul class="org-ul">
+<li>南一中的歷史、校園、老師、升學管道&#x2026;這些我都不熟<br /></li>
+<li>如何在這三年讀好書拿到好成績，這個不是我的專長，也沒有這種經歷<br /></li>
+</ul>
+
+<p>
+這裡想談的是：如果你在這三年裡可能會動手做些研究、搞些專題、寫些期刊或論文，那你還需要哪些能力？如何培養這些能力？<br />
+</p>
+
+<p>
+所以，這五堂課只會介紹幾種東西<br />
+</p>
+<ol class="org-ol">
+<li>研究如何進行研究: 找題目、文獻回顧、研究設計、結果統計<br /></li>
+<li>研究的過程需要哪些工具<br />
+<ul class="org-ul">
+<li>各種作業系統(MacOS, Linux)<br /></li>
+<li>搜尋論文<br /></li>
+<li>資料整理<br /></li>
+<li>資料統計<br /></li>
+<li>AI工具<br /></li>
+</ul></li>
+</ol>
+<div id="outline-container-org30e7b02" class="outline-2">
+<h2 id="org30e7b02"><span class="section-number-2">1.</span> MacOS / Terminal</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1b26ccd" class="outline-3">
+<h3 id="org1b26ccd"><span class="section-number-3">1.1.</span> MacOS基本操作</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org4d21857" class="outline-4">
+<h4 id="org4d21857"><span class="section-number-4">1.1.1.</span> 桌面的選單</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+選單列位於 Mac 螢幕上方。使用選單列中的選單和圖像來選擇指令、執行工作和查看狀態。更多詳細說明請參看<a href="https://support.apple.com/zh-tw/guide/mac-help/mchlp1446/mac">macOS 使用手冊</a><sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup><br />
+</p>
+
+<div id="orgd5c8130" class="figure">
+<p><img src="images/MacOS_/_Terminal/2024-05-18_13-07-44_6e5840e293137c23c4e9b7b78af3fe5c.png" alt="2024-05-18_13-07-44_6e5840e293137c23c4e9b7b78af3fe5c.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 1: </span>Mac的選單列</p>
+</div>
+</div>
+<div id="outline-container-org25db6c9" class="outline-5">
+<h5 id="org25db6c9"><span class="section-number-5">1.1.1.1.</span> 「蘋果」選單</h5>
+<div class="outline-text-5" id="text-1-1-1-1">
+<p>
+「蘋果」選單 位於螢幕左上角，其包含你經常執行的指令，如更新 App、打開「系統設定」、鎖定螢幕或將 Mac 關機<sup><a id="fnr.1.100" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orge53b6e3" class="outline-5">
+<h5 id="orge53b6e3"><span class="section-number-5">1.1.1.2.</span> App 選單</h5>
+<div class="outline-text-5" id="text-1-1-1-2">
+<p>
+App 選單位於「蘋果」選單旁邊。你正在使用的 App 名稱會以粗體顯示，接著是其他選單，通常含有標準名稱，如「檔案」、「編輯」、「格式」或「視窗」。每個 App 都有「輔助說明」選單，讓你可輕鬆地取得使用 App 的相關資訊<sup><a id="fnr.1.100" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org5aee78b" class="outline-5">
+<h5 id="org5aee78b"><span class="section-number-5">1.1.1.3.</span> 狀態選單</h5>
+<div class="outline-text-5" id="text-1-1-1-3">
+<p>
+選單列的右端是通常以圖像表示，可用於檢查 Mac 的狀態（例如電池電量）或自訂功能（例如鍵盤亮度）的項目（有時稱為狀態選單）<sup><a id="fnr.1.100" class="footref" href="#fn.1" role="doc-backlink">1</a></sup>。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org43100e4" class="outline-4">
+<h4 id="org43100e4"><span class="section-number-4">1.1.2.</span> Where are you</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<p>
+和Windows/Linux一樣，每台電腦都為每個user建立了一個家目錄，你在這台電腦的所有工作通常都是儲存在這個家目錄底下，在MacOS中，這個目錄在你的電腦硬碟「/Users/使用者名稱」，在Linux中，這個目錄在「/home/使用者名稱」。<br />
+</p>
+
+<div id="org9509d5b" class="figure">
+<p><img src="images/MacOS_/_Terminal/2024-05-18_13-03-53_2024-05-18_13-02-46.png" alt="2024-05-18_13-03-53_2024-05-18_13-02-46.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 2: </span>MacOS使用者的家目錄</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org07c9ac4" class="outline-4">
+<h4 id="org07c9ac4"><span class="section-number-4">1.1.3.</span> 如何執行應用程式</h4>
+<div class="outline-text-4" id="text-1-1-3">
+</div>
+<div id="outline-container-orgd1db74f" class="outline-5">
+<h5 id="orgd1db74f"><span class="section-number-5">1.1.3.1.</span> Docker</h5>
+<div class="outline-text-5" id="text-1-1-3-1">
+
+<div id="org84d4ef2" class="figure">
+<p><img src="images/MacOS_/_Terminal/2024-05-18_13-43-19_2024-05-18_13-13-28.png" alt="2024-05-18_13-43-19_2024-05-18_13-13-28.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 3: </span>Docker</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbbd7d93" class="outline-5">
+<h5 id="orgbbd7d93"><span class="section-number-5">1.1.3.2.</span> Finder</h5>
+<div class="outline-text-5" id="text-1-1-3-2">
+<p>
+/Applications<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8f5ca9d" class="outline-4">
+<h4 id="org8f5ca9d"><span class="section-number-4">1.1.4.</span> 切換輸入法</h4>
+</div>
+<div id="outline-container-org04c36d3" class="outline-4">
+<h4 id="org04c36d3"><span class="section-number-4">1.1.5.</span> HotKey</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<p>
+底下的+指的是組合兩個鍵，不是要按+，你可以先按住⌘再按下其他鍵，不用刻意搶在同一時間點按下兩個鍵<br />
+</p>
+<ul class="org-ul">
+<li>Increase font size: ⌘ + =<br /></li>
+<li>Decrease font size: ⌘ + -<br /></li>
+<li>Select ALL : ⌘ + a<br /></li>
+<li>Copy:  ⌘ + C<br /></li>
+<li>Paste:  ⌘ + V<br /></li>
+<li>Undo:  ⌘ + Z<br /></li>
+<li>Redo:  Shift + ⌘ + Z<br /></li>
+<li>Cut : ⌘ + X<br /></li>
+<li>New:  ⌘ + N<br /></li>
+<li>Close:  ⌘ + W<br /></li>
+<li>Quit:  ⌘ + Q<br /></li>
+<li>Save:  ⌘ + S<br /></li>
+<li>Print:  ⌘ + P<br /></li>
+<li>Force Quit:  Option + ⌘ + Esc<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7afc804" class="outline-3">
+<h3 id="org7afc804"><span class="section-number-3">1.2.</span> Terminal</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgee345b2" class="outline-4">
+<h4 id="orgee345b2"><span class="section-number-4">1.2.1.</span> Where are you</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<div class="org-src-container">
+<pre class="src src-shell"><span class="linenr">1: </span><span style="color: #ECBE7B;">pwd</span>
+</pre>
+</div>
+
+<pre class="example">
+/Users/letranger
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org32fdb5d" class="outline-2">
+<h2 id="org32fdb5d"><span class="section-number-2">2.</span> What is Research</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li>research: re-search<br /></li>
+<li>寫論文要注意什麼: be logical<br /></li>
+<li>「大部份一看就很厲害的題目」，通常都做不出來，<br /></li>
+<li>「一看就知道做得出來的題目」，通常都很無聊。<br /></li>
+<li>所有的學位論文都是在對既有學術界知識的挑戰，也許是推翻既有認知，有許是提出新觀點<br /></li>
+<li>一篇論文最後應該重點只有一句話，這句話講出來對整個學術界或業界能帶來特定貢獻，而整篇論文的目的只在圍繞這句話，為這句話舉證，讓人信服。<br /></li>
+<li>口試要注意什麼: 不要被問到你沒有準備好的問題<br /></li>
+<li>摘要: 本論文以什麼方法研究一個什麼問題得到一個什麼樣的結論<br /></li>
+<li>導論：我研究的是什麼問題?這個問題有什麼學術價值跟應用價值? 這是什麼研究? 為什麼值得被研究? 這個問題這麼重要，為什麼還有空間可以研究？<br /></li>
+<li>文獻回顧: 這個問題之前有什麼人研究過，這些人各提出用什麼方法解決過什麼問題，留下什麼問題?<br /></li>
+<li>研究設計: 我打算以何種方式來證明我的想法<br /></li>
+<li>結果分析: 我的實驗結果如何支持我的想法<br /></li>
+</ul>
+</div>
+<div id="outline-container-org9178970" class="outline-3">
+<h3 id="org9178970"><span class="section-number-3">2.1.</span> 每個想法都有其意義，端看其應用場域</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li>一瓶水在不同地點賣不同價格<br /></li>
+<li>如果你覺得你沒什麼價值，可能你站錯地點<br /></li>
+<li>如果你覺得你的idea沒什麼用，可能是你用錯領域<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd2a3b5b" class="outline-3">
+<h3 id="orgd2a3b5b"><span class="section-number-3">2.2.</span> 研究題目的意義</h3>
+<div class="outline-text-3" id="text-2-2">
+<p width="500">
+<img src="images/範例/2024-05-14_14-20-47_research-1.png" alt="2024-05-14_14-20-47_research-1.png" width="500" /><br />
+這個研究的價值<br />
+</p>
+<ul class="org-ul">
+<li>維他命吃太多沒用: 藥廠在製藥時就知道每顆藥加多少單位的維他命<br /></li>
+<li>嬰兒要增加抵抗力吃維他命沒用<br /></li>
+</ul>
+
+<p>
+而同一個方法可以應用到其他領域的研究，例如<br />
+</p>
+<ul class="org-ul">
+<li>快乾水泥: 搶修(會熱)<br /></li>
+<li>慢乾水泥: 例如，保證14天內不乾，到第15天變硬。有市場嗎? 對初學者、家居修繕DIY可能有市場<br /></li>
+</ul>
+
+<div id="orgb4c0dfd" class="figure">
+<p><img src="images/範例/2024-05-14_14-20-53_research-2.png" alt="2024-05-14_14-20-53_research-2.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 4: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org01edefa" class="outline-3">
+<h3 id="org01edefa"><span class="section-number-3">2.3.</span> 研究題目的大小</h3>
+<div class="outline-text-3" id="text-2-3">
+<ul class="org-ul">
+<li>舉例來說，其實很多發展經濟學的研究，一直圍繞在一個議題上：為什麼會發生工業革命？這顯然是聖盃了，都諾貝爾獎得主在做的，別輕易挑戰他。也可以把問題框的稍微小一點：為什麼臺灣會有高速工業化？這似乎就比較容易做了，但對我這種普通水準的嫩新來說，還是太大了點。也可以再進一步問題框到更小一點：日治時期的銀行網路對臺灣戰後工業化有什麼影響？這問題就變成可以回答了。框到自己能力得以回答的範圍，又不失解謎，是很重要的一步。<br /></li>
+<li>手機對高中生的影響<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0345d5f" class="outline-3">
+<h3 id="org0345d5f"><span class="section-number-3">2.4.</span> 找到一個新題目太難</h3>
+<div class="outline-text-3" id="text-2-4">
+<ul class="org-ul">
+<li>拿現有題目/方法應用於新場域<br /></li>
+<li>原來的題目用新理論來解釋<br /></li>
+<li>原來的題目應用新資料來看結果是否相同<br /></li>
+<li>原來的題目應用新方法<br /></li>
+</ul>
+
+
+<div id="org4a76f71" class="figure">
+<p><img src="images/什麼是研究/2024-05-16_20-47-03_2024-05-16_20-46-53.png" alt="2024-05-16_20-47-03_2024-05-16_20-46-53.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 5: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org475e75f" class="outline-3">
+<h3 id="org475e75f"><span class="section-number-3">2.5.</span> 找論文的具體方法</h3>
+<div class="outline-text-3" id="text-2-5">
+<ul class="org-ul">
+<li>由閱讀論文<br /></li>
+<li>由教科書<br /></li>
+<li>和教師導論<br /></li>
+<li>現實生活觀察<br /></li>
+<li>作夢夢到<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgff8ceb0" class="outline-3">
+<h3 id="orgff8ceb0"><span class="section-number-3">2.6.</span> 膠水</h3>
+<div class="outline-text-3" id="text-2-6">
+<ul class="org-ul">
+<li>非常黏<br /></li>
+<li>不太黏: 3M便利貼<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org70325a5" class="outline-3">
+<h3 id="org70325a5"><span class="section-number-3">2.7.</span> How to store your ideas</h3>
+<div class="outline-text-3" id="text-2-7">
+<ul class="org-ul">
+<li>you need a place to store your notes, store the things you find<br /></li>
+<li>軟體很多，從最簡單的做起: 資料夾<br /></li>
+<li>最基本的功能: link - backlinks<br /></li>
+<li>格式越簡單越原始越好<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgf2bcb06" class="outline-4">
+<h4 id="orgf2bcb06"><span class="section-number-4">2.7.1.</span> apps</h4>
+<div class="outline-text-4" id="text-2-7-1">
+<ul class="org-ul">
+<li>Goodnotes<br /></li>
+<li>Notability<br /></li>
+<li>Notion<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1506252" class="outline-4">
+<h4 id="org1506252"><span class="section-number-4">2.7.2.</span> web</h4>
+<div class="outline-text-4" id="text-2-7-2">
+<ul class="org-ul">
+<li>hackmd.io<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgca7857f" class="outline-4">
+<h4 id="orgca7857f"><span class="section-number-4">2.7.3.</span> software</h4>
+<div class="outline-text-4" id="text-2-7-3">
+<ul class="org-ul">
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc156d1b" class="outline-3">
+<h3 id="orgc156d1b"><span class="section-number-3">2.8.</span> 研究的程序</h3>
+<div class="outline-text-3" id="text-2-8">
+<ul class="org-ul">
+<li>找到研究主題<br /></li>
+<li>進行文獻回顧<br /></li>
+<li>設計研究架構<br /></li>
+<li>分析研究數據<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgeaaaaff" class="outline-4">
+<h4 id="orgeaaaaff"><span class="section-number-4">2.8.1.</span> 文獻回顧: 了解既有的答案與證據(文獻回顧)</h4>
+<div class="outline-text-4" id="text-2-8-1">
+<ul class="org-ul">
+<li>搜尋、評估、篩選、分析、批評、匯整的能力<br /></li>
+<li>如果你剛進入一個領域，初讀一篇論文時找到一個題目，非常偉大 &#x2013; 先忘了它，那麼多有背景知識的人讀了這篇文章，為什麼沒想到你的題目，可能是做不出來<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb206fd9" class="outline-4">
+<h4 id="orgb206fd9"><span class="section-number-4">2.8.2.</span> 批判思考的能力: 分析既有的答案，評估其可信度與待釐清的疑點</h4>
+<div class="outline-text-4" id="text-2-8-2">
+<ul class="org-ul">
+<li>批判性思考的能力<br /></li>
+<li>題目要嚴謹、週延、有創意<br /></li>
+<li>不能太大，要可操作<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga54318d" class="outline-4">
+<h4 id="orga54318d"><span class="section-number-4">2.8.3.</span> 創新的能力: 蒐集進一步的證據，提出更可靠(改良)的答案或解決方案</h4>
+<div class="outline-text-4" id="text-2-8-3">
+<ul class="org-ul">
+<li>創新的能力<br /></li>
+<li>更嚴謹的回答(推論)過程，例如「調漲基本工資是否會導致弱勢勞工失業」這一問題的答案已在YES/NO來回於經濟學界論戰三十年，但重要的不是YES/NO，而是回答過程中考慮到的因素越來越完整、對所謂弱勢勞工的定義越來越精準、抽樣的方法越來越可靠。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga67c253" class="outline-4">
+<h4 id="orga67c253"><span class="section-number-4">2.8.4.</span> 什麼是爛題目</h4>
+<div class="outline-text-4" id="text-2-8-4">
+<ul class="org-ul">
+<li>生命的意義是什麼: 這個問題從古希臘時代所有的哲學家都在回答，但是沒有人同意其他人的回答<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6b2d739" class="outline-4">
+<h4 id="org6b2d739"><span class="section-number-4">2.8.5.</span> 例子</h4>
+<div class="outline-text-4" id="text-2-8-5">
+</div>
+<div id="outline-container-orgfc05000" class="outline-5">
+<h5 id="orgfc05000"><span class="section-number-5">2.8.5.1.</span> 題目</h5>
+<div class="outline-text-5" id="text-2-8-5-1">
+<p>
+人臉辨識系統<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org81e267c" class="outline-5">
+<h5 id="org81e267c"><span class="section-number-5">2.8.5.2.</span> 基本原理</h5>
+<div class="outline-text-5" id="text-2-8-5-2">
+<p>
+拍一張照片，比對圖庫中的所有照片，比對是否為同一人，這會有很多派別，有人特徵開始，找到許多特徵位置(特徵值)，做成矩陣；有人用模糊比對；有人用類神經網路&#x2026;.有很多不同方法，例如有以下四個方法<br />
+</p>
+
+<div id="orgc850e68" class="figure">
+<p><img src="images/研究的程序/2024-05-14_10-37-58_p.png" alt="2024-05-14_10-37-58_p.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 6: </span>人臉辨識系統的四種方法</p>
+</div>
+<ul class="org-ul">
+<li>特性:有無戴帽子、有沒有戴眼鏡、有沒有鬍子、頭的角度、離鏡頭距離&#x2026;&#x2026;<br /></li>
+<li>典型的台灣學生想法，把這四個方法求排名，依據上面各特性的得分求排名&#x2026;.這個方法是錯的<sup><a id="fnr.2" class="footref" href="#fn.2" role="doc-backlink">2</a></sup><br /></li>
+<li>應該要有另一個特性：應用場域，例如海關一定會強迫你拿掉帽子或眼鏡，可能某個住宅區只限某個膚色，限定了場域，許多特性下的表現就沒參考意義。<br /></li>
+<li>意思是：方法和應用要配對，沒有一個最好的方法能應用到所有場域，所有的方法在工業界都有其用途&#x2013;在特定場域中。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc82116f" class="outline-5">
+<h5 id="orgc82116f"><span class="section-number-5">2.8.5.3.</span> 應用</h5>
+<div class="outline-text-5" id="text-2-8-5-3">
+<p>
+這個應用在機場可能是找通緝犯、應用在住宅可能是判斷是否為住戶<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org50b65ad" class="outline-5">
+<h5 id="org50b65ad"><span class="section-number-5">2.8.5.4.</span> 分析方法</h5>
+<div class="outline-text-5" id="text-2-8-5-4">
+<ul class="org-ul">
+<li>批判的綜合與創新: 方法優缺點與問題對照表<br /></li>
+<li>關鍵字review paper: 這類paper不提出創新的方法，就只是在比較各種方法的優缺點<br /></li>
+<li>所有論文最難懂的是研究方法與實驗設計<br /></li>
+<li>如何批判：找出大師批判別人的角度<br /></li>
+<li>讀論文要回答的問題: 如何找出一個更好的方法？要思考為什麼某一種方法不能表現更好？它是因為有哪些基本假設或條件限制？還是在處理過程中做了什麼不對的事？我讀論文只是為了回答這個問題，所以讀論文時要聚焦，懷著某一種問題來看論文。<br /></li>
+<li>在看上面的表時，要思考，我能否放開它的某個限制，應用於其他領域。<br /></li>
+<li>每次讀一篇paper不用全懂，只針對重要的問題來看，看完要能回答問題，所以是參考，不是全部讀懂<br /></li>
+<li>要懷著自私的心態來看論文，<br /></li>
+<li>讀論文不是讀課本，不用太在乎細節<br /></li>
+<li>方法1的前提或假設或處理有何優點，能否利用這種優點轉移到我的方法2: 移植或雜交<br /></li>
+<li>知識經濟時代最重要的不是發揮自己的能力，而是應用別人的能力；台灣首富是郭台銘，但他不是最聰明的人，他會用最聰明的人；台灣最聰明的人可能在台大，但是台大都是窮教授，因為他們只會用自己的智慧<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org755b719" class="outline-4">
+<h4 id="org755b719"><span class="section-number-4">2.8.6.</span> 用別人的智慧解決自己的問題</h4>
+<div class="outline-text-4" id="text-2-8-6">
+<ul class="org-ul">
+<li>人的聰明程度差異不太大，但是用的方法效率差異很大<br /></li>
+<li>站在巨人的肩膀上，往前跳一步都是創新，把你的聰明才智放在最後那一步<br /></li>
+<li>累積基礎知識、看文獻只是為了爬到巨人的肩膀<br /></li>
+</ul>
+
+<div id="orgf4a5bc8" class="figure">
+<p><img src="images/研究的程序/2024-05-14_12-00-14_fft.png" alt="2024-05-14_12-00-14_fft.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 7: </span>標題</p>
+</div>
+<ul class="org-ul">
+<li>1958年美蘇打了三次太空競賽，前兩次蘇俄勝出，因為他們找了100個數學家，讓他們找出三個比他們聰明的數學家，重新定義問題，提出方法；美國第三次勝出的關鍵是斥鉅資(美國國會圖書館)把所有和太空技術有關的paper全部整理出摘要，然後發現許多所需要的solution已經發表在paper中<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org05758b3" class="outline-4">
+<h4 id="org05758b3"><span class="section-number-4">2.8.7.</span> paper看不懂</h4>
+<div class="outline-text-4" id="text-2-8-7">
+<ol class="org-ol">
+<li>由淺入深填補背景知識<br />
+難度: 期刊論文 &gt; 博士論文 &gt; 課本 &gt; Wikipedia<br /></li>
+</ol>
+
+<div id="org3b33d32" class="figure">
+<p><img src="images/研究的程序/2024-05-14_12-44-35_readPapers.png" alt="2024-05-14_12-44-35_readPapers.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 8: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orga26d96b" class="outline-4">
+<h4 id="orga26d96b"><span class="section-number-4">2.8.8.</span> 讀paper的境界</h4>
+<div class="outline-text-4" id="text-2-8-8">
+
+<div id="org68af6be" class="figure">
+<p><img src="images/研究的程序/2024-05-14_12-47-15_readPaper-1.png" alt="2024-05-14_12-47-15_readPaper-1.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 9: </span>標題</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3dd48cc" class="outline-2">
+<h2 id="org3dd48cc"><span class="section-number-2">3.</span> 如何找研究題目</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgad4b3f1" class="outline-3">
+<h3 id="orgad4b3f1"><span class="section-number-3">3.1.</span> 同一技術應用於不同領域</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li>聽三秒猜歌: 地震預測<br /></li>
+<li>google技術應用於流感預測<br /></li>
+</ul>
+</div>
+<div id="outline-container-org5387bd5" class="outline-4">
+<h4 id="org5387bd5"><span class="section-number-4">3.1.1.</span> 前題</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ol class="org-ol">
+<li>對技術有基本理解<br /></li>
+<li>對新領域有詳細理解<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgc126de8" class="outline-3">
+<h3 id="orgc126de8"><span class="section-number-3">3.2.</span> 待用</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+目標：學生瞭解學術研究的基本步驟與方法。<br />
+內容：<br />
+    研究問題的選擇與定義<br />
+    研究設計的基礎：實驗設計、調查研究、案例研究等<br />
+    資料收集方法：量化與質化<br />
+    研究倫理與學術誠信<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org6e50b06" class="outline-3">
+<h3 id="org6e50b06"><span class="section-number-3">3.3.</span> 去哪裡找論文</h3>
+<div class="outline-text-3" id="text-3-3">
+</div>
+<div id="outline-container-org7b27484" class="outline-4">
+<h4 id="org7b27484"><span class="section-number-4">3.3.1.</span> 博碩士論文知識加值系統</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<ul class="org-ul">
+<li><a href="https://ndltd.ncl.edu.tw">博碩士論文網</a>: 基於學位授予法，國家圖書館為國內唯一博碩士論文法定寄存圖書館<br /></li>
+<li>登入會員的優點: SDI、記錄檢索歷史、線上問卷服務<br /></li>
+<li>論文裡的所有論幾乎都能在Google找到，可以加限縮(主題 ndlpd)<br /></li>
+<li>找到一篇論文後，由引用論文延伸擴散繼續搜尋(可由被引用數、被點閱數、被下載數來觀察各論文的人氣指數)，再由排序順序來找到可以優先查看的其他論文<br /></li>
+<li>輸出管理: 可以輸出書目APA格式或RIS格式<br /></li>
+<li>我的研究室: 可以看歷史查詢記錄<br /></li>
+<li>物聯網 運算<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0dd0e43" class="outline-4">
+<h4 id="org0dd0e43"><span class="section-number-4">3.3.2.</span> ResearchGate</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<ul class="org-ul">
+<li><a href="https://www.researchgate.net/">ResearchGate</a><br /></li>
+</ul>
+<p>
+ResearchGate 是一個專為科學家和研究人員設計的社交網絡平台。它的主要用途包括：<br />
+</p>
+<ul class="org-ul">
+<li>分享和發現研究成果：研究人員可以在平台上上傳自己的論文、文章、書籍和其他研究材料，並與全球的同行分享​​。<br /></li>
+<li>互動和合作：ResearchGate 提供了討論區和問答功能，研究人員可以在這裡討論研究問題、尋求建議，並尋找合作夥伴​​。<br /></li>
+<li>研究影響力：平台會追蹤研究材料的下載和引用次數，幫助研究人員了解他們的研究影響力和受歡迎程度​​。<br /></li>
+<li>資源和工具：ResearchGate 還提供了各種工具和資源，幫助研究人員進行數據分析、尋找工作機會和了解最新的研究趨勢​​。<br /></li>
+<li>個人資料和網絡：用戶可以創建個人學術檔案，展示他們的研究歷史和專業背景，並擴展他們的專業網絡​​。<br /></li>
+<li>期刊上找不到PDF的論文可以試著直接跟原作者要<br /></li>
+</ul>
+
+<div id="org07ffbcd" class="figure">
+<p><img src="images/如何找研究題目/2024-05-17_13-25-54_2024-05-17_13-25-41.png" alt="2024-05-17_13-25-54_2024-05-17_13-25-41.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 10: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org8e20e06" class="outline-4">
+<h4 id="org8e20e06"><span class="section-number-4">3.3.3.</span> ProQuest</h4>
+<div class="outline-text-4" id="text-3-3-3">
+<p>
+ProQuest 是一家提供全球學術研究和教育支持的公司，擁有多個數字資料庫和信息服務。以下是 ProQuest 的主要定位和功能：<br />
+</p>
+<ul class="org-ul">
+<li>多學科資料庫：ProQuest 提供廣泛的多學科資料庫，包括人文、社會科學、醫學、工程、科學技術等各個領域的學術期刊、論文、書籍、報紙、雜誌等資料​​。<br /></li>
+<li>學術論文和研究文獻：ProQuest 收錄了大量的博士論文、碩士論文和學術研究報告，為研究人員提供豐富的原始資料來源​​。<br /></li>
+<li>專題資料庫：ProQuest 提供專門針對某些領域的資料庫，如商業、法律、教育、藝術和人文學科等，滿足不同學科研究的需求​​。<br /></li>
+<li>全文檢索和獲取：用戶可以通過 ProQuest 的強大搜索引擎，檢索和獲取全文資料，並且可以按需下載或在線閱讀​​。<br /></li>
+<li>歷史文獻和報紙檔案：ProQuest 也包含大量歷史文獻和報紙檔案，提供了豐富的歷史研究資源，適合歷史學者和研究人員使用​​。<br /></li>
+<li>圖書和電子書：除了期刊和論文，ProQuest 還提供大量的電子書和圖書資源，方便用戶進行多樣化的學術研究​​。<br /></li>
+<li>教育和學術支持：ProQuest 為教育機構、圖書館和研究機構提供支持，幫助他們有效管理和利用數字資源，並提供培訓和技術支持​​。<br /></li>
+</ul>
+<p>
+ProQuest 在學術研究和教育領域中扮演著重要角色，通過其全面的資料庫和信息服務，為全球研究人員和學生提供豐富的資源和支持。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgedf114b" class="outline-4">
+<h4 id="orgedf114b"><span class="section-number-4">3.3.4.</span> EBSCO</h4>
+<div class="outline-text-4" id="text-3-3-4">
+<p>
+EBSCO 是一家提供信息資源和服務的公司，專注於支持學術研究、教育和企業的需求。以下是 EBSCO 的主要定位和功能：<br />
+</p>
+<ul class="org-ul">
+<li>多學科資料庫：EBSCO 提供多種資料庫，涵蓋各種學科領域，如人文、社會科學、醫學、科學技術、教育等，為研究人員和學生提供豐富的學術資源​​。<br /></li>
+<li>全文檢索和獲取：EBSCO 提供強大的搜索引擎，用戶可以方便地檢索到期刊文章、書籍、報紙、雜誌等資料，並獲取全文內容​​。<br /></li>
+<li>專題資料庫：EBSCO 有針對特定學科或主題的專門資料庫，如 Business Source Complete（商業資料庫）、CINAHL（護理和健康資料庫）、ERIC（教育資料庫）等，滿足特定領域的研究需求​​。<br /></li>
+<li>電子書和電子期刊：EBSCOhost 提供大量電子書和電子期刊，供用戶在線閱讀和下載，擴展了傳統圖書館的資源​​。<br /></li>
+<li>歷史文獻和檔案：EBSCO 也收錄大量的歷史文獻和檔案資料，支持歷史研究和學術探討​​。<br /></li>
+<li>教育支持和教學資源：EBSCO 為教育機構提供教學資源和課程支持，包括教師用的教學材料和學生用的學習資源，幫助提升教育質量​​。<br /></li>
+<li>圖書館管理服務：EBSCO 為圖書館提供管理服務，幫助圖書館有效管理其數字資源，並提供技術支持和培訓​​。<br /></li>
+<li>個性化服務和工具：EBSCO 提供個性化的研究工具，如文獻管理、書籤、標注等功能，幫助用戶更有效地進行研究和學習​。<br /></li>
+</ul>
+<p>
+EBSCO 的目標是通過提供全面的學術資源和先進的技術支持，促進全球學術研究和教育的發展。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgc88efab" class="outline-4">
+<h4 id="orgc88efab"><span class="section-number-4">3.3.5.</span> ProQuest v.s. EBSCO</h4>
+<div class="outline-text-4" id="text-3-3-5">
+<p>
+ProQuest 和 EBSCO 是兩個主要的學術資源和信息服務提供商，雖然它們在許多方面有相似之處，但也有一些顯著的差異。以下是它們的比較：<br />
+</p>
+</div>
+<div id="outline-container-org743aea3" class="outline-5">
+<h5 id="org743aea3"><span class="section-number-5">3.3.5.1.</span> 相似之處</h5>
+<div class="outline-text-5" id="text-3-3-5-1">
+<ul class="org-ul">
+<li>多學科資料庫：兩者都提供涵蓋各種學科領域的多學科資料庫，如人文、社會科學、醫學、科學技術和教育等​​。<br /></li>
+<li>全文檢索和獲取：兩者都提供強大的全文檢索和獲取功能，用戶可以方便地檢索到期刊文章、書籍、報紙、雜誌等資料，並獲取全文內容​。<br /></li>
+<li>專題資料庫：ProQuest 和 EBSCO 都有針對特定學科或主題的專門資料庫，滿足特定領域的研究需求​​。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org450f290" class="outline-5">
+<h5 id="org450f290"><span class="section-number-5">3.3.5.2.</span> 差異之處</h5>
+<div class="outline-text-5" id="text-3-3-5-2">
+<ul class="org-ul">
+<li>資料庫範圍和專業化：ProQuest：其資料庫範圍廣泛，包括博士論文和碩士論文、歷史文獻和報紙檔案等，特別擅長於人文社會科學和商業領域的資料​​。<br /></li>
+<li>EBSCO：除了學術期刊和書籍外，EBSCO 也提供大量的電子書、歷史文獻和檔案資料，並且在護理和健康資料庫（如 CINAHL）方面有顯著的優勢​​。<br /></li>
+<li>教育支持和教學資源：EBSCO：提供更多的教育支持和教學資源，如教師用的教學材料和學生用的學習資源，幫助提升教育質量​​。<br /></li>
+<li>ProQuest：更多專注於學術研究支持，提供專業的研究工具和資源，但在教學資源方面不如 EBSCO 廣泛​​。<br /></li>
+<li>技術和服務：ProQuest：提供高級的資料管理和研究工具，如 RefWorks，用於文獻管理和引用​​。EBSCO：提供個性化的研究工具，如文獻管理、書籤、標注等功能，並且在圖書館管理服務方面提供更多技術支持和培訓​​。<br /></li>
+<li>電子書和電子期刊：EBSCO：擁有大量的電子書和電子期刊，特別是教育和醫學領域的電子資源​​。<br /></li>
+<li>ProQuest：也提供電子書和電子期刊，但其強項在於傳統期刊和學位論文​​。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb3190c6" class="outline-5">
+<h5 id="orgb3190c6"><span class="section-number-5">3.3.5.3.</span> 結論</h5>
+<div class="outline-text-5" id="text-3-3-5-3">
+<p>
+ProQuest 和 EBSCO 都是優秀的學術資源平台，各有優勢。ProQuest 更適合需要廣泛學術論文和歷史檔案的用戶，而 EBSCO 則在教育支持和健康科學資料庫方面有顯著優勢。選擇哪一個平台應根據具體的研究需求和學科領域來決定。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgff8673a" class="outline-4">
+<h4 id="orgff8673a"><span class="section-number-4">3.3.6.</span> paperwithcode</h4>
+<div class="outline-text-4" id="text-3-3-6">
+<p>
+Paper with Code 是一個專注於將學術論文與其對應的代碼資源相結合的平台。它的主要定位和功能如下：<br />
+</p>
+<ul class="org-ul">
+<li>學術論文與代碼的結合：該平台收集了大量的機器學習和人工智慧領域的學術論文，並提供這些論文對應的開源代碼，方便研究人員直接使用和驗證研究結果​​。<br /></li>
+<li>方便的搜索和瀏覽：用戶可以通過關鍵詞、研究領域、數據集等多種方式進行搜索，快速找到相關的論文和代碼資源​​。<br /></li>
+<li>基準測試和排行榜：平台上還提供了各種基準測試和排行榜，用於比較不同方法在標準數據集上的表現，幫助研究人員了解當前最先進的方法和技術​​。<br /></li>
+<li>社區貢獻：研究人員可以上傳自己的論文和代碼，與全球的同行分享他們的研究成果，促進學術交流與合作​​。<br /></li>
+<li>資源整合：Paper with Code 也會整合其他相關資源，例如數據集、預訓練模型和教程，為研究人員提供一站式的學習和研究平台​​。<br /></li>
+</ul>
+<p>
+這個網站在促進學術研究的透明度和可重複性方面發揮了重要作用，使得更多的研究人員能夠方便地訪問和使用最新的研究成果和技術。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgfe5630b" class="outline-4">
+<h4 id="orgfe5630b"><span class="section-number-4">3.3.7.</span> PubMed Central</h4>
+<div class="outline-text-4" id="text-3-3-7">
+<ul class="org-ul">
+<li><a href="https://www.ncbi.nlm.nih.gov/pmc/">National Library of Medicince</a>: 美國健康研究院公共資料庫，每天83萬次點擊、160萬篇論文下載<br /></li>
+</ul>
+<p>
+PubMed Central (PMC) 是美國國家生物技術信息中心（NCBI）運營的免費數字存儲庫，專門用於存放生物醫學和生命科學領域的全文期刊文章。它的主要定位和功能如下：<br />
+</p>
+<ul class="org-ul">
+<li>免費訪問學術文章：PMC 提供了大量經過同行評審的學術期刊文章的免費全文訪問，支持開放獲取（Open Access）理念，旨在使科學研究更加透明和可用​​。<br /></li>
+<li>廣泛的學科覆蓋：該平台涵蓋了生物醫學和生命科學的多個學科，包括醫學、公共衛生、生物學、遺傳學、神經科學等領域，為研究人員、醫療從業者和學生提供豐富的資源​​。<br /></li>
+<li>高效的搜索和檢索功能：PMC 提供強大的搜索引擎和檢索工具，用戶可以通過關鍵詞、作者、期刊名稱、出版日期等多種方式快速找到所需的文章​​。<br /></li>
+<li>文獻鏈接和引用：平台上的文章通常與其他科學文獻和數據庫（如PubMed、GenBank）相互鏈接，方便用戶進一步查閱相關研究成果和數據​​。<br /></li>
+<li>持續更新和存儲：PMC 定期更新，持續增加新的期刊和文章，並確保數字化內容的長期存儲和保存，維持資料的持久可用性​​。<br /></li>
+</ul>
+<p>
+PubMed Central 在促進科學知識的共享和傳播方面發揮了重要作用，為全球的研究社群提供了一個可靠和便捷的資源平台。<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org72f5a9f" class="outline-3">
+<h3 id="org72f5a9f"><span class="section-number-3">3.4.</span> 什麼是合適的論文</h3>
+<div class="outline-text-3" id="text-3-4">
+<ul class="org-ul">
+<li>worth of reading<br /></li>
+<li>多讀幾篇論文就知道什麼是合適的論文<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org4f41889" class="outline-2">
+<h2 id="org4f41889"><span class="section-number-2">4.</span> 如何閱讀文獻、分析文獻</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org31305e1" class="outline-3">
+<h3 id="org31305e1"><span class="section-number-3">4.1.</span> 目標：</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+培養學生批判性閱讀與分析學術文獻的能力。<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgd01c22b" class="outline-3">
+<h3 id="orgd01c22b"><span class="section-number-3">4.2.</span> 內容：</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+文獻類型與文獻搜尋技巧<br />
+如何評估文獻的質量與可靠性<br />
+文獻綜述的撰寫技巧<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org8e15f1a" class="outline-3">
+<h3 id="org8e15f1a"><span class="section-number-3">4.3.</span> 文獻搜尋與篩選的工具</h3>
+<div class="outline-text-3" id="text-4-3">
+<ul class="org-ul">
+<li>上網一週、讀的都是垃圾<br /></li>
+<li>讀一天論文，勝過自己想10天， 1:10<br /></li>
+<li>讀一週論文，懂頂尖學者兩年的研究心得，槓桿效率<br /></li>
+</ul>
+</div>
+<div id="outline-container-org2557c73" class="outline-4">
+<h4 id="org2557c73"><span class="section-number-4">4.3.1.</span> 方法</h4>
+<div class="outline-text-4" id="text-4-3-1">
+<ol class="org-ol">
+<li>google 關鍵字 filetype:pdf<br /></li>
+<li>找到paper - reference paper<br /></li>
+<li>累積你有興趣的學者 - 依學者查相關paper<br /></li>
+<li>讀懂期刊論文最簡單的方法-讀這篇paper的作者碩博士論文<br /></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb969c4f" class="outline-4">
+<h4 id="orgb969c4f"><span class="section-number-4">4.3.2.</span> Google 工具</h4>
+<div class="outline-text-4" id="text-4-3-2">
+<ul class="org-ul">
+<li>Google scholar<br /></li>
+<li>Google Advanced Search<br /></li>
+<li>Google Image Search<br /></li>
+<li>Google Book Search<br /></li>
+<li>EBSCO Host<br /></li>
+<li>PQDT OPEN<br /></li>
+<li><a href="https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=0gYMC0/login?jstimes=1&amp;loadingjs=1&amp;o=dwebmge&amp;ssoauth=1&amp;cache=1715661393551">博碩士論文網</a><br /></li>
+<li>Research Gate<br /></li>
+<li>Paper with code<br /></li>
+<li>Engineering Village:<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orge30e0f7" class="outline-3">
+<h3 id="orge30e0f7"><span class="section-number-3">4.4.</span> 搜尋方法</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+第一次下的關鍵字可能不是很精確，所以搜到的第一批paper可能不夠好，看幾篇paper後應該能找到更精確的關鍵字，然後再去搜第二批文獻，找到正確文獻，由refrerence與作者下手<br />
+</p>
+
+<div id="orgf52b114" class="figure">
+<p><img src="images/研究的程序/2024-05-14_12-41-18_searchPapers.png" alt="2024-05-14_12-41-18_searchPapers.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 11: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org22badc6" class="outline-3">
+<h3 id="org22badc6"><span class="section-number-3">4.5.</span> 文獻回顧到批判創新</h3>
+<div class="outline-text-3" id="text-4-5">
+</div>
+<div id="outline-container-orgc0a6c62" class="outline-4">
+<h4 id="orgc0a6c62"><span class="section-number-4">4.5.1.</span> 什麼是研究</h4>
+<div class="outline-text-4" id="text-4-5-1">
+<ul class="org-ul">
+<li>answer to a question (當你想為一個要緊的問題找到最週延可靠的答案)<br /></li>
+<li>solution to a problem (當你想為一個要緊的問題找到最佳的解決方案時)<br /></li>
+<li>當你遭遇人生的重大問題，不能做錯決定時<br /></li>
+<li>社會科學: answer to a question (高中校園是否該禁用手機)<br /></li>
+<li>自然科學: solution to a problem (建一個人臉識別系統)，如果再加上成本控制就是一個商業solution<br /></li>
+<li>answer的重要性除了創新，更重要的是嚴謹，最好的答案是一勞永逸<br /></li>
+<li>數學界最好的答案是證明此題無解或是在任何情況下的解，而非是在特定限制下的解<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd666b20" class="outline-4">
+<h4 id="orgd666b20"><span class="section-number-4">4.5.2.</span> 如何判斷一個answer是否嚴謹</h4>
+<div class="outline-text-4" id="text-4-5-2">
+<ul class="org-ul">
+<li>出發點是否嚴謹可接受<br /></li>
+<li>推論過程是否嚴謹可接受<br /></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgfe5cda9" class="outline-2">
+<h2 id="orgfe5cda9"><span class="section-number-2">5.</span> 一個問題，如何設計研究</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+有了研究成果，如何證明其有效<br />
+</p>
+</div>
+<div id="outline-container-org65005ec" class="outline-3">
+<h3 id="org65005ec"><span class="section-number-3">5.1.</span> 奶茶問題</h3>
+</div>
+<div id="outline-container-orgca2e0d5" class="outline-3">
+<h3 id="orgca2e0d5"><span class="section-number-3">5.2.</span> 我有一個新的教學法，如何證明其有效</h3>
+<div class="outline-text-3" id="text-5-2">
+<ul class="org-ul">
+<li>找一個班，試教<br /></li>
+<li>找兩個班，試教<br /></li>
+<li>同一個老師 v.s. 不同老師<br /></li>
+<li>不同班的學生資質是否一樣<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc22678c" class="outline-3">
+<h3 id="orgc22678c"><span class="section-number-3">5.3.</span> 如何設計研究</h3>
+<div class="outline-text-3" id="text-5-3">
+<ul class="org-ul">
+<li>自變項、依變項<br /></li>
+<li>干擾變項(控制變項)<br /></li>
+<li>中介變項<br /></li>
+</ul>
+
+<div id="org72c1755" class="figure">
+<p><img src="images/研究設計/2024-05-14_14-45-26_research-3.png" alt="2024-05-14_14-45-26_research-3.png" width="500" /><br />
+</p>
+<p><span class="figure-number">Figure 12: </span>標題</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org6d14e0e" class="outline-3">
+<h3 id="org6d14e0e"><span class="section-number-3">5.4.</span> 任何干擾變數或中介變數都是重大發現</h3>
+</div>
+<div id="outline-container-org278bb14" class="outline-3">
+<h3 id="org278bb14"><span class="section-number-3">5.5.</span> 如何將這個架構圖應用到你的研究</h3>
+</div>
+<div id="outline-container-org9b6f6dd" class="outline-3">
+<h3 id="org9b6f6dd"><span class="section-number-3">5.6.</span> 如果你有用到調查</h3>
+<div class="outline-text-3" id="text-5-6">
+<p>
+怎麼知道你的調查是有效的<br />
+怎麼確定男女的興趣有顯著差異<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgd1d1417" class="outline-3">
+<h3 id="orgd1d1417"><span class="section-number-3">5.7.</span> 問卷怎麼進行</h3>
+</div>
+</div>
+<div id="outline-container-org084f931" class="outline-2">
+<h2 id="org084f931"><span class="section-number-2">6.</span> 完成實驗後如何分析解釋結果</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org317a0ea" class="outline-3">
+<h3 id="org317a0ea"><span class="section-number-3">6.1.</span> 如何淨化數據</h3>
+<div class="outline-text-3" id="text-6-1">
+<p>
+目標：使學生能夠理解並實施基本的資料分析技術。<br />
+內容：<br />
+統計學的基本概念：描述性統計、概率、推斷性統計<br />
+常用的統計方法：迴歸分析、方差分析等<br />
+使用 Excel 和 Google Sheets 進行基礎數據分析<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0d71f3" class="outline-3">
+<h3 id="orgb0d71f3"><span class="section-number-3">6.2.</span> 如何分析統計數據</h3>
+<div class="outline-text-3" id="text-6-2">
+</div>
+<div id="outline-container-org081f132" class="outline-4">
+<h4 id="org081f132"><span class="section-number-4">6.2.1.</span> 描述統計</h4>
+</div>
+<div id="outline-container-org1830b1f" class="outline-4">
+<h4 id="org1830b1f"><span class="section-number-4">6.2.2.</span> 推論統計</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org36c20cb" class="outline-2">
+<h2 id="org36c20cb"><span class="section-number-2">7.</span> APA</h2>
+</div>
+
+<div id="outline-container-org78300a0" class="outline-2">
+<h2 id="org78300a0"><span class="section-number-2">8.</span> 研究工具</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+目標：介紹常用於學術研究的軟體工具與程式語言。<br />
+內容：<br />
+    統計與數據分析軟體：SPSS, R, Python<br />
+    文獻管理軟體：EndNote, Zotero<br />
+    文獻搜索與管理：Google Scholar, ResearchGate<br />
+</p>
+</div>
+<div id="outline-container-org2ea5876" class="outline-3">
+<h3 id="org2ea5876"><span class="section-number-3">8.1.</span> OS</h3>
+<div class="outline-text-3" id="text-8-1">
+<p>
+Experience operating systems other than Windows<br />
+不要被Windows綁死了，這會限制你的視野<br />
+</p>
+</div>
+<div id="outline-container-orgcb723e2" class="outline-4">
+<h4 id="orgcb723e2"><span class="section-number-4">8.1.1.</span> Windows</h4>
+<div class="outline-text-4" id="text-8-1-1">
+</div>
+<div id="outline-container-org0024de0" class="outline-5">
+<h5 id="org0024de0"><span class="section-number-5">8.1.1.1.</span> 優點：</h5>
+<div class="outline-text-5" id="text-8-1-1-1">
+<ul class="org-ul">
+<li>廣泛相容性：支援各種硬體和軟體，適用於遊戲、辦公、專業應用等多個領域。<br /></li>
+<li>使用者友好：介面直觀，容易上手，廣泛的使用者基礎和豐富的資源。<br /></li>
+<li>廣泛支援：大量的第三方軟體和硬體廠商提供支援，豐富的驅動程式。<br /></li>
+<li>遊戲性能：對最新遊戲的支援和優化，豐富的遊戲庫和遊戲社群。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge790b07" class="outline-5">
+<h5 id="orge790b07"><span class="section-number-5">8.1.1.2.</span> 缺點：</h5>
+<div class="outline-text-5" id="text-8-1-1-2">
+<ul class="org-ul">
+<li>安全性問題：由於使用者基數大，成為惡意軟體和病毒的主要目標。<br /></li>
+<li>成本：Windows作業系統和許多專業軟體需要付費。<br /></li>
+<li>系統資源需求：較高的系統資源需求，可能在舊硬體上表現不佳。<br /></li>
+<li>隱私問題：預設設定下的隱私控制不夠嚴格。<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgde6a048" class="outline-4">
+<h4 id="orgde6a048"><span class="section-number-4">8.1.2.</span> macOS</h4>
+<div class="outline-text-4" id="text-8-1-2">
+</div>
+<div id="outline-container-orga26d46a" class="outline-5">
+<h5 id="orga26d46a"><span class="section-number-5">8.1.2.1.</span> 優點：</h5>
+<div class="outline-text-5" id="text-8-1-2-1">
+<ul class="org-ul">
+<li>生態系統整合：與其他蘋果裝置（如iPhone、iPad）無縫整合，提供統一的使用者體驗。<br /></li>
+<li>使用者介面：設計精美，容易上手，注重使用者體驗。<br /></li>
+<li>安全性：相對封閉的生態系統減少了惡意軟體的風險。<br /></li>
+<li>專業軟體支援：對創意工作者（如影片編輯、音樂製作）有很好的軟體支援，如Final Cut Pro和Logic Pro。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c5e676" class="outline-5">
+<h5 id="org3c5e676"><span class="section-number-5">8.1.2.2.</span> 缺點：</h5>
+<div class="outline-text-5" id="text-8-1-2-2">
+<ul class="org-ul">
+<li>成本：蘋果硬體價格較高，整體成本較高。<br /></li>
+<li>硬體選擇有限：只能使用蘋果提供的硬體，缺乏自訂和擴充性。<br /></li>
+<li>遊戲支援較弱：相比Windows，macOS的遊戲庫和遊戲性能較弱。<br /></li>
+<li>軟體相容性：某些特定軟體或專業應用沒有macOS版本。<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdd0b027" class="outline-4">
+<h4 id="orgdd0b027"><span class="section-number-4">8.1.3.</span> Linux</h4>
+<div class="outline-text-4" id="text-8-1-3">
+</div>
+<div id="outline-container-org383ba38" class="outline-5">
+<h5 id="org383ba38"><span class="section-number-5">8.1.3.1.</span> 優點：</h5>
+<div class="outline-text-5" id="text-8-1-3-1">
+<ul class="org-ul">
+<li>免費開源：作業系統免費且開源，可自由修改和發佈。<br /></li>
+<li>高度可自訂：使用者可以根據需求自訂系統，各種桌面環境和發行版可選。<br /></li>
+<li>安全性：由於開源和較小的市場份額，惡意軟體和病毒的風險較低。<br /></li>
+<li>資源效率：對系統資源需求較低，可在舊硬體上流暢運行。<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org87ef0b1" class="outline-5">
+<h5 id="org87ef0b1"><span class="section-number-5">8.1.3.2.</span> 缺點：</h5>
+<div class="outline-text-5" id="text-8-1-3-2">
+<ul class="org-ul">
+<li>使用者友好性：初學者可能會遇到學習曲線，某些配置和維護任務需要指令列操作。<br /></li>
+<li>軟體相容性：某些專業軟體和遊戲沒有Linux版本，需要尋找替代品或使用相容層（如Wine）。<br /></li>
+<li>硬體支援：部分硬體（如特定的印表機或顯卡）可能缺乏驅動支援或需要手動配置。<br /></li>
+<li>技術支援：雖然有豐富的社群支援，但沒有官方的客戶服務，一些問題需要使用者自行解決。<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf286d24" class="outline-4">
+<h4 id="orgf286d24"><span class="section-number-4">8.1.4.</span> 終端機模式的基本指令</h4>
+<div class="outline-text-4" id="text-8-1-4">
+<ul class="org-ul">
+<li>各種系統均可利用終端機進行基本操作<br /></li>
+<li>github, python套件管理<br /></li>
+<li>colab的進階應用<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org7baf1e5" class="outline-3">
+<h3 id="org7baf1e5"><span class="section-number-3">8.2.</span> hackmd.io</h3>
+</div>
+<div id="outline-container-org073fce8" class="outline-3">
+<h3 id="org073fce8"><span class="section-number-3">8.3.</span> Dropbox</h3>
+</div>
+<div id="outline-container-org4525b17" class="outline-3">
+<h3 id="org4525b17"><span class="section-number-3">8.4.</span> github</h3>
+</div>
+<div id="outline-container-orgdb247f9" class="outline-3">
+<h3 id="orgdb247f9"><span class="section-number-3">8.5.</span> Excel / Google worksheet</h3>
+</div>
+<div id="outline-container-orgc775616" class="outline-3">
+<h3 id="orgc775616"><span class="section-number-3">8.6.</span> SAS / SPSS</h3>
+</div>
+<div id="outline-container-org0de72cd" class="outline-3">
+<h3 id="org0de72cd"><span class="section-number-3">8.7.</span> office365</h3>
+</div>
+<div id="outline-container-orgcce9294" class="outline-3">
+<h3 id="orgcce9294"><span class="section-number-3">8.8.</span> R</h3>
+<div class="outline-text-3" id="text-8-8">
+</div>
+<div id="outline-container-org13d637c" class="outline-4">
+<h4 id="org13d637c"><span class="section-number-4">8.8.1.</span> chart</h4>
+<div class="outline-text-4" id="text-8-8-1">
+<div class="org-src-container">
+<pre class="src src-R"><span class="linenr">1: </span>ls()
+<span class="linenr">2: </span>Speed &lt;- cars$speed
+<span class="linenr">3: </span>Distance &lt;- cars$dist
+<span class="linenr">4: </span>plot(Speed, Distance, panel.first = lines(stats::lowess(Speed, Distance), pch=0, cex=1.2, col="blue"))
+</pre>
+</div>
+
+
+<div id="org27150d9" class="figure">
+<p><img src="expect.png" alt="expect.png" /><br />
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdde6bf9" class="outline-3">
+<h3 id="orgdde6bf9"><span class="section-number-3">8.9.</span> Python</h3>
+<div class="outline-text-3" id="text-8-9">
+<ul class="org-ul">
+<li>pycharm<br /></li>
+<li>colab<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgb2a185d" class="outline-3">
+<h3 id="orgb2a185d"><span class="section-number-3">8.10.</span> 玩一下AI</h3>
+<div class="outline-text-3" id="text-8-10">
+<ul class="org-ul">
+<li>teachable machine<br /></li>
+<li>orange<br /></li>
+<li>colab<br /></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org0338090" class="outline-2">
+<h2 id="org0338090"><span class="section-number-2">9.</span> 批判</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li>不是讀knowledge<br /></li>
+<li>現實世界最重要要學的不是知識，拿keyword去問google可以學到太多知識<br /></li>
+</ul>
+</div>
+<div id="outline-container-orgcca4bf3" class="outline-3">
+<h3 id="orgcca4bf3"><span class="section-number-3">9.1.</span> 學三件事</h3>
+<div class="outline-text-3" id="text-9-1">
+<ul class="org-ul">
+<li>critical reading: 用critical的方式閱讀<br /></li>
+<li>critical thinking: 自我批判，最重要的點是open minded，我憑什麼相信我是對的，我憑什麼相信他講的是對的，出發點是自我批判，<br /></li>
+<li>critical writing: 我講的每句話都有充份的理由，禁的起別人的批判，所有的結論都有前提<br /></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgec9d450" class="outline-3">
+<h3 id="orgec9d450"><span class="section-number-3">9.2.</span> 批判性思考</h3>
+<div class="outline-text-3" id="text-9-2">
+<ol class="org-ol">
+<li>精準運用術語，清晰有條理地表達複雜思想: 術語是在用最精準的詞語來定義不同領域的問題，assessment在教育測驗和評量和工程各自有不同的定義<br /></li>
+<li>發展或表述個人主張時，會充分考察其他人關於這個主題的見解、理論和證據: 這就是為什麼要提文獻回顧，要顛覆別人的論述之前要先搞清楚他人的論述內容，文獻回顧不是流水帳，不一定是批判別人，應該是拿別人的研究來做自我批判，不斷拿別人的研究來修正自己的觀點<br /></li>
+<li>能從不同角度去思索、觀察、評價一個主題(能跳脫狹隘的、先入為主的個人成見): 透過文獻回顧來做到這點<br /></li>
+<li>陳述事實或轉述他人觀點時，不輕易同意自己或他人的主張，會警覺到疑點且有所保留: 批判自己，我為什麼是對的？別人為什麼是錯的？<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org23a9b56" class="outline-2">
+<h2 id="org23a9b56"><span class="section-number-2">10.</span> 結論</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+也許在這幾堂課中我介紹了某些特定知識、工具，但你要記得三件事:<br />
+</p>
+<ul class="org-ul">
+<li>現在你們學到知識可能在以後都用不到<br /></li>
+<li>未來你們所要解決的問題，學校的老師並不了解<br /></li>
+<li>未來你們所要使用的科技，現在並不存在<br /></li>
+</ul>
+<p>
+所以要學什麼? 方法<br />
+</p>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://support.apple.com/zh-tw/guide/mac-help/welcome/mac">macOS 使用手冊</a><br />
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2" role="doc-backlink">2</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+<a href="https://www.youtube.com/watch?v=jZnYuPavCvA">研究生的核心能力 ─ 從文獻回顧到批判與創新</a><br />
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: Yung-Chin Yen</p>
+<p class="date">Created: 2024-05-18 Sat 13:54</p>
+</div>
+</body>
+</html>
